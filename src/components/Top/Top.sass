@@ -1,0 +1,29 @@
+@import '../../variables.sass'
+
+.Top
+  &-wrapper
+    max-width: $container-width
+    width: 100%
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    align-items: center
+  figure
+    width: 25%
+    margin: 0
+    img
+      width: 100%
+  nav
+    max-width: 75%
+    ul
+      padding: 0
+      display: flex
+      li
+        list-style-type: none
+        padding: 8px 12px
+        a
+          text-decoration: none
+          color: $color-grey
+          &:hover
+            color: $color-blue
+            border-bottom: 1px solid $color-blue
