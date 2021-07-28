@@ -14,15 +14,21 @@ export const Footer = (props) => {
           <h5>¡Estás a un clic de iniciar una experiencia que revolucionará tu marca!</h5>
           <ul>
             <li>
-              <FontAwesomeIcon icon={faPhoneAlt}/>
+              <div className="Footer-icon">
+                <FontAwesomeIcon icon={faPhoneAlt}/>
+              </div>
               <span>PBX: 571- 472 5933</span>
             </li>
             <li>
-              <FontAwesomeIcon icon={faMobileAlt}/>
+              <div className="Footer-icon">
+                <FontAwesomeIcon icon={faMobileAlt}/>
+              </div>
               <span>Móvil: (57) 310 785 1233</span>
             </li>
             <li>
-              <FontAwesomeIcon icon={faEnvelope}/>
+              <div className="Footer-icon">
+                <FontAwesomeIcon icon={faEnvelope}/>
+              </div>
               <span>info@motionfactorystudios.com</span>
             </li>
           </ul>
