@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
+import { Home as HomeComponent } from '../components/Home/Home.jsx';
 
 export const Home = (props) => {
   return (
@@ -14,7 +15,7 @@ export const Home = (props) => {
         />
       }
     >
-      Hola
+      <HomeComponent/>
     </Layout>
   );
 };
