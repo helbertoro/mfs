@@ -1,0 +1,54 @@
+@import '../../variables.sass'
+
+.HomePortafolio
+  padding: 50px 40px 50px 10px
+  border-radius: 20px
+  box-shadow: 1px 10px 5px $color-secondary
+  &-title
+    h4
+      display: inline-block
+      vertical-align: middle
+      margin: 0 20px 0 0
+      font-size: 2.7rem
+      font-family: 'nexaxbold'
+      color: $color-primary
+    p
+      display: inline-block
+      vertical-align: middle
+      font-size: 1.5rem
+  &-tabs
+    ul
+      margin: 0
+      padding: 0 0 10px 0
+      display: flex
+      justify-content: space-between
+      border-bottom: 1px solid $color-secondary
+      li
+        list-style-type: none
+        text-align: center
+        a
+          display: block
+          position: relative
+          padding: 10px
+          font-size: 1.4rem
+          text-decoration: none
+          color: $color-secondary
+          &:hover
+            font-family: 'nexaxbold'
+          &::before
+            position: absolute
+            bottom: -14px
+            left: 0
+            right: 0
+            content: ''
+            display: none
+            border-radius: 20px
+            width: 100%
+            height: 8px
+            background-color: $color-primary
+          &.--active
+            font-family: 'nexaxbold'
+            &::before
+              display: block
+    &-content
+      padding-top: 30px
