@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { HomeTop } from './HomeTop.jsx';
 import { HomeContent } from './HomeContent.jsx';
 import { HomePortafolio } from './HomePortafolio.jsx';
+import { HomeExperiences } from './HomeExperiences.jsx';
 
 export const Home = (props) => {
   return (
@@ -10,6 +11,7 @@ export const Home = (props) => {
       <HomeTop/>
       <HomeContent/>
       <HomePortafolio/>
+      <HomeExperiences/>
     </div>
   );
 };
