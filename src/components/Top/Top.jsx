@@ -12,10 +12,10 @@ export const Top = (props) => {
         </figure>
         <nav>
           <ul>
-            <li><a href="?">Home</a></li>
-            <li><a href="?">Nosotros</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/nosotros">Nosotros</a></li>
             <li><a href="?">Servicios</a></li>
-            <li><a href="?">Portafolio</a></li>
+            <li><a href="/portafolio">Portafolio</a></li>
             <li><a href="?">Blog</a></li>
             <li><a href="?">Contacto</a></li>
           </ul>

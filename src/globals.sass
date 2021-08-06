@@ -29,3 +29,22 @@ textarea
 
 b
   font-family: 'nexaxbold'
+
+.Content
+  max-width: 1200px
+  margin: 30px auto 90px auto
+  &-row
+    width: 100%
+    text-align: justify
+    &::after
+      content: ""
+      clear: both
+      display: table
+  &-img-right
+    width: 35%
+    float: right
+    margin-left: 4%
+  &-img-left
+    width: 35%
+    float: left
+    margin-right: 4%
