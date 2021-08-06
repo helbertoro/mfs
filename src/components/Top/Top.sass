@@ -20,15 +20,30 @@
       width: 100%
   nav
     max-width: 75%
-    ul
+    > ul
       padding: 0
       display: flex
       li
+        position: relative
         list-style-type: none
         padding: 8px 12px
-        a
+        a, span
           text-decoration: none
           color: $color-secondary
+          cursor: pointer
           &:hover
             color: $color-primary
             border-bottom: 1px solid $color-primary
+        &:hover
+          .Top-submenu
+            display: flex
+  &-submenu
+    position: absolute
+    top: 35px
+    width: 230px
+    padding: 10px
+    display: none
+    flex-direction: column
+    border-radius: 12px
+    box-shadow: 0px 5px 10px $color-secondary
+    background-color: $color-secondary-contrast
