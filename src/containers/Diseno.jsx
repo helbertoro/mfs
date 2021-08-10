@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
+import { BtnPortafolio } from '../components/BtnPortafolio/BtnPortafolio.jsx';
+import { Phrases } from '../components/Phrases/Phrases.jsx';
 
 export const Diseno = (props) => {
   return (
@@ -26,6 +28,12 @@ export const Diseno = (props) => {
           <img className="Content-img-left" src="http://clinicanova.com.co/img/demo/internal/home-1.png" alt="Motion factory studios" />
           <p>Con el auge de las redes sociales y el impulso comercial que brindan las herramientas digitales al crecimiento de los negocios, el diseño gráfico se ha convertido en la mejor herramienta para lograr grandes avances en la construcción de una marca sólida y de gran prestigio para sus compradores potenciales, logrando una integración precisa entre el contenido del mensaje y su forma, trabajando siempre en función de facilitar la interpretación de los usuarios con los valores que transmiten las empresas y el impacto de su imagen corporativa.</p>
           <p>Sin dudarlo, la primera impresión es determinante a la hora de captar la atención de tus clientes y visibilizar tu negocio sobresaliendo frente a la competencia. Para ello ofrecemos una extensa gama de soluciones gráficas para el manejo integral del branding corporativo de tu empresa: Creación de branding e imagen corporativa, creación de material P.O.P., diseño para campañas de marketing digital e ilustración para video.</p>
+        </div>
+        <div className="content-row">
+          <Phrases page="diseno"/>
+        </div>
+        <div className="content-row">
+          <BtnPortafolio url="/portafolio"/>
         </div>
       </div>
     </Layout>

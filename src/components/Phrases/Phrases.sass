@@ -1,0 +1,59 @@
+@import "../../variables.sass"
+
+.Phrases
+  display: flex
+  &-content
+    display: flex
+    align-items: center
+    width: 45%
+    padding: 30px 50px
+    box-sizing: border-box
+    background-color: $color-secondary-contrast
+    box-shadow: 10px 10px 10px #AAA
+    p
+      margin: 0
+      color: $color-secondary
+    p:nth-child(1)
+      text-transform: uppercase
+      font-family: 'nexaxbold'
+      font-size: 1.9rem
+    p:nth-child(2)
+      text-transform: uppercase
+      font-family: 'nexaxbold'
+      font-size: 1.9rem
+      color: blue
+    p:nth-child(3)
+      font-size: 1.9rem
+  &-title
+    width: 50%
+    ul
+      display: flex
+      flex-direction: column
+      height: 100%
+      margin: 0
+      padding: 0
+      li
+        list-style-type: none
+  &-button
+    display: flex
+    align-items: center
+    width: 100%
+    height: 100%
+    min-height: 68px
+    padding: 10px 60px
+    box-sizing: border-box
+    box-shadow: 0px 0px 10px #AAA
+    border: none
+    background-color: #e5e4e4
+    color: $color-secondary
+    font-size: 1.7rem
+    text-transform: uppercase
+    text-decoration: none
+    text-align: left
+    cursor: pointer
+    &:hover
+      background-color: blue
+      color: $color-secondary-contrast
+    &.--active
+      background-color: blue
+      color: $color-secondary-contrast

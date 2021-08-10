@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
+import { BtnPortafolio } from '../components/BtnPortafolio/BtnPortafolio.jsx';
+import { Phrases } from '../components/Phrases/Phrases.jsx';
 
 export const Marketing = (props) => {
   return (
@@ -28,6 +30,12 @@ export const Marketing = (props) => {
           <p>Las actuales tendencias en marketing digital se han visto influenciadas principalmente por los avances en programación web, permitiendo fortalecer los servicios de atención al cliente para brindar una respuesta oportuna a los nuevos compradores potenciales interesados en conocer tus productos y servicios: chatbots, búsquedas por voz, bases de datos CRM, streaming digital y aplicaciones móviles han sido los más recientes adelantos en tecnología que impulsan el crecimiento de las marcas y consolidan sólidas relaciones de confianza con sus clientes.</p>
           <p>Nada se compara con el potencial que ofrece el marketing digital para el crecimiento de tu negocio, una herramienta efectiva para mantener una relación cercana con tus clientes y seguidores, comprender sus necesidades y ofrecer productos o servicios que respondan a sus intereses. El marketing digital brinda una alternativa altamente confiable al momento de agrupar comunidades de seguidores y clientes potenciales interesados en la oferta de valor de tu negocio, influyendo de manera clara en su decisión de compra y mejorando significativamente u participación en el mercado en comparación con la competencia.</p>
           <p>En Motion Factory Studios ofrecemos un completo despliegue estratégico para impulsar el crecimiento de tu marca en redes sociales, mejorando el posicionamiento tu negocio en el entorno digital, aumentando la influencia progresiva en tus clientes. Nuestro propósito es garantizar el mayor número de conversiones posibles gracias a la gestión estratégica en tus comunidades virtuales.</p>
+        </div>
+        <div className="content-row">
+          <Phrases page="marketing"/>
+        </div>
+        <div className="content-row">
+          <BtnPortafolio url="/portafolio"/>
         </div>
       </div>
     </Layout>

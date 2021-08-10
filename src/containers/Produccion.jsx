@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
 import { BtnPortafolio } from '../components/BtnPortafolio/BtnPortafolio.jsx';
+import { Phrases } from '../components/Phrases/Phrases.jsx';
 
 export const Produccion = (props) => {
   return (
@@ -26,7 +27,10 @@ export const Produccion = (props) => {
           <p>Es momento de conocer los beneficios asociados con la producción de contenidos audiovisuales que refuercen estratégicamente la presencia de tu marca. Mejora el rendimiento comercial de tu negocio en plena era digital, fortaleciendo los márgenes de ventas en comparación con la competencia.</p>
         </div>
         <div className="content-row">
-          <BtnPortafolio url="www.google.com"/>
+          <Phrases page="produccion"/>
+        </div>
+        <div className="content-row">
+          <BtnPortafolio url="/portafolio"/>
         </div>
       </div>
     </Layout>

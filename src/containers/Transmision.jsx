@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
+import { BtnPortafolio } from '../components/BtnPortafolio/BtnPortafolio.jsx';
 
 export const Transmision = (props) => {
   return (
@@ -29,6 +30,9 @@ export const Transmision = (props) => {
           Te invitamos a que conozcas una
           NUEVA FORMA DE TRANSMITIR TUS EVENTOS
           e impactar en tus audiencias digitales
+        </div>
+        <div className="content-row">
+          <BtnPortafolio url="/portafolio"/>
         </div>
       </div>
     </Layout>

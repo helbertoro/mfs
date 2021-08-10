@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
+import { BtnPortafolio } from '../components/BtnPortafolio/BtnPortafolio.jsx';
+import { Phrases } from '../components/Phrases/Phrases.jsx';
 
 export const Fotografia = (props) => {
   return (
@@ -23,6 +25,12 @@ export const Fotografia = (props) => {
           <p>Nos caracteriza el profesionalismo y la calidad, ofreciendo a nuestros clientes imágenes altamente impactantes, captadas con los más avanzados equipos de producción fotográfica disponibles en el mercado. De igual manera nuestro equipo de diseñadores gráficos especializados en edición digital de imágenes, procesarán el material recopilado ofreciendo el máximo despliegue visual de cada fotografía, haciéndola más impactante y atractiva para tus clientes.</p>
           <p>La fotografía ha cobrado una relevancia determinante en el mundo del marketing y la publicidad. Una práctica en constante evolución que se ha visto enriquecida recientemente con la llegada de las nuevas tecnologías, destinadas a maximizar el potencial visual de las imágenes para hacerlas más atractivas y explotar todo su impacto aparente en favor de los negocios y las marcas asociadas a estas.</p>
           <p>El recurso ideal en plena era digital... prepárate para transmitir cientos de conceptos en una sola imagen, por medio de un catálogo fotográfico profesional a la altura de las necesidades de tu negocio.</p>
+        </div>
+        <div className="content-row">
+          <Phrases page="fotografia"/>
+        </div>
+        <div className="content-row">
+          <BtnPortafolio url="/portafolio"/>
         </div>
       </div>
     </Layout>

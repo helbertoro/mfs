@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
+import { BtnPortafolio } from '../components/BtnPortafolio/BtnPortafolio.jsx';
+import { Phrases } from '../components/Phrases/Phrases.jsx';
 
 export const Eventos = (props) => {
   return (
@@ -27,6 +29,12 @@ export const Eventos = (props) => {
           <p>Al momento de conceptualizar un evento tratamos en todo momento de resaltar la importancia de tu marca durante el desarrollo del mismo, empleando estratégicamente todos los recursos a disposición para presentar el punto diferencial de tu negocio frente a los clientes, contactos, socios, proveedores y seguidores de la marca. Desde esta perspectiva, los eventos se entienden como un canal más en la estrategia de comunicación de tu negocio, razón por la cual es fundamental priorizar en la creación de una experiencia de marca inigualable que impacte positivamente en los asistentes y fortalezca las relaciones comerciales derivadas de estos encuentros.</p>
           <p>Por otro lado, el poder de convocatoria de estos encuentros suele reafirmar su conveniencia al momento de formular una estrategia de posicionamiento de marca frente a tus rivales comerciales, en el caso de seminarios y espacios de capacitación, se garantiza que los asistentes al evento se encuentren realmente interesados en los temas a tratar sirviendo como herramienta de convocatoria para clientes reales dispuestos a establecer relaciones de largo plazo con tu negocio. Este es un punto fundamental para complementar la estrategia de posicionamiento de tu negocio, impulsando progresivamente el reconocimiento de tu marca y su reputación en el mercado.</p>
           <p>En Motion Factory Studios entendemos la importancia de trabajar con profesionalismo brindando a nuestros clientes espacios de encuentro en modalidad presencial o virtual, según los intereses de sus asistentes; por esta razón contamos con un amplio despliegue de recursos tecnológicos para brindar a los participantes de tus encuentros una experiencia audiovisual inmejorable, brindando acompañamiento integral en el montaje de eventos corporativos, fiestas, conferencias y capacitaciones, ultimando hasta el más mínimo detalle para garantizar una impecable realización en cumplimiento de los protocolos actuales de bioseguridad.</p>
+        </div>
+        <div className="content-row">
+          <Phrases page="eventos"/>
+        </div>
+        <div className="content-row">
+          <BtnPortafolio url="/portafolio"/>
         </div>
       </div>
     </Layout>
