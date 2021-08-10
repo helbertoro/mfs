@@ -9,7 +9,7 @@ export const Transmision = (props) => {
     <Layout
       banner={
         <Banner
-          color="#FFFFFF"
+          color="#ffb600"
           title="Experiencia y profesionalismo <span>a tu alcance</span>"
           image="demo.png"
         />
