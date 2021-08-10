@@ -1,0 +1,46 @@
+@import "../variables.sass"
+
+.Portafolio
+  max-width: 1200px
+  margin: 0 atuo
+  &-title
+    text-align: center
+    h1
+      color: $color-primary
+      margin-bottom: 0px
+    p
+      font-size: 1.7rem
+  &-content
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    &-item
+      position: relative
+      width: 32%
+      margin-bottom: 50px
+      box-sizing: border-box
+      border-radius: 20px
+      text-align: center
+      a
+        display: block
+        text-decoration: none
+        &:hover img
+          transform: scale(1.05)
+          transition-duration: 0.5s
+        &:hover span
+          background-color: $color-primary
+          color: $color-secondary-contrast
+        img
+          width: 100%
+        span
+          display: block
+          position: absolute
+          width: 80%
+          padding: 10px
+          bottom: -15px
+          left: 10%
+          background-color: $color-secondary-contrast
+          box-shadow: 1px 1px 10px #DDD
+          border-radius: 8px
+          color: $color-secondary
+          font-size: 1.2rem
