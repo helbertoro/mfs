@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './HomeTop.sass';
 
 export const HomeTop = (props) => {
@@ -38,12 +37,4 @@ export const HomeTop = (props) => {
       ))}
     </div>
   );
-};
-
-HomeTop.propTypes = {
-
-};
-
-HomeTop.defaultProps = {
-
 };

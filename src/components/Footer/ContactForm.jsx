@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './ContactForm.sass';
 
 export const ContactForm = (props) => {
@@ -23,12 +22,4 @@ export const ContactForm = (props) => {
       </form>
     </div>
   );
-};
-
-ContactForm.propTypes = {
-
-};
-
-ContactForm.defaultProps = {
-
 };

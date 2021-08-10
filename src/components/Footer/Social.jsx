@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faInstagram, faYoutube, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import './Social.sass';
@@ -31,12 +30,4 @@ export const Social = (props) => {
       </ul>
     </div>
   );
-};
-
-Social.propTypes = {
-
-};
-
-Social.defaultProps = {
-
 };

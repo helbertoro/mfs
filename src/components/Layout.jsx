@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Top } from './Top/Top.jsx';
 import { Footer } from './Footer/Footer.jsx';
 import './Layout.sass';
@@ -15,12 +14,4 @@ export const Layout = (props) => {
       <Footer/>
     </div>
   );
-};
-
-Layout.propTypes = {
-
-};
-
-Layout.defaultProps = {
-
 };

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneAlt, faMobileAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { ContactForm } from './ContactForm.jsx';
@@ -43,12 +42,4 @@ export const Footer = (props) => {
       </div>
     </div>
   );
-};
-
-Footer.propTypes = {
-
-};
-
-Footer.defaultProps = {
-
 };

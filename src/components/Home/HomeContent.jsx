@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './HomeContent.sass';
 
 export const HomeContent = (props) => {
@@ -17,12 +16,4 @@ export const HomeContent = (props) => {
       </div>
     </div>
   );
-};
-
-HomeContent.propTypes = {
-
-};
-
-HomeContent.defaultProps = {
-
 };

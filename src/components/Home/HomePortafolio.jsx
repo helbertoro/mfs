@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import './HomePortafolio.sass';
 
 export const HomePortafolio = (props) => {
@@ -67,12 +66,4 @@ export const HomePortafolio = (props) => {
       </div>
     </div>
   );
-};
-
-HomePortafolio.propTypes = {
-
-};
-
-HomePortafolio.defaultProps = {
-
 };

@@ -1,15 +1,15 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import Logo from '../../statics/images/MFS.png';
 import './Top.sass';
 
 export const Top = (props) => {
   return (
     <div className="Top">
       <div className="Top-wrapper">
-        <figure>
-          <img src={Logo} alt="Motion Factory Studios" />
-        </figure>
+        <a className="Top-wrapper-logo" href="/">
+          <figure>
+            <img src="http://clinicanova.com.co/img/demo/logo.png" alt="Motion Factory Studios" />
+          </figure>
+        </a>
         <nav>
           <ul>
             <li><a href="/">Home</a></li>
@@ -33,12 +33,4 @@ export const Top = (props) => {
       </div>
     </div>
   );
-};
-
-Top.propTypes = {
-
-};
-
-Top.defaultProps = {
-
 };

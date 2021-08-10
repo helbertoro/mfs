@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteRight, faQuoteLeft } from '@fortawesome/free-solid-svg-icons'
 import './HomeExperiences.sass';
@@ -40,12 +39,4 @@ export const HomeExperiences = (props) => {
       </div>
     </div>
   );
-};
-
-HomeExperiences.propTypes = {
-
-};
-
-HomeExperiences.defaultProps = {
-
 };
