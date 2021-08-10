@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
+import { BtnPortafolio } from '../components/BtnPortafolio/BtnPortafolio.jsx';
 
 export const Produccion = (props) => {
   return (
@@ -23,6 +24,9 @@ export const Produccion = (props) => {
           <p>Un video corporativo de impecable calidad visual impacta en la mejora del tráfico hacia los canales de difusión donde este es presentado (principalmente página web y redes sociales) mejora el posicionamiento en motores de búsqueda cómo Google y tiene un poder de conversión en ventas mucho más alto que los medios tradicionales, sumado al impacto en la recordación de los clientes potenciales que conforman tu nicho de mercado.</p>
           <p>Las nuevas tecnologías de la información han modificado la dinámica en que los consumidores se relacionan con las marcas de su preferencia; grandes volúmenes de información son procesados a través de internet en cuestión de segundos... razón por la cual cada vez más empresas se han visto en la necesidad de generar contenidos en video de mayor impacto, transformando la relación con sus audiencias y mejorando la percepción actual de sus clientes en medio de un panorama digital en constante crecimiento.</p>
           <p>Es momento de conocer los beneficios asociados con la producción de contenidos audiovisuales que refuercen estratégicamente la presencia de tu marca. Mejora el rendimiento comercial de tu negocio en plena era digital, fortaleciendo los márgenes de ventas en comparación con la competencia.</p>
+        </div>
+        <div className="content-row">
+          <BtnPortafolio url="www.google.com"/>
         </div>
       </div>
     </Layout>
