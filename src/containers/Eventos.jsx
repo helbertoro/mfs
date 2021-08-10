@@ -1,9 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
 import { BtnPortafolio } from '../components/BtnPortafolio/BtnPortafolio.jsx';
 import { Phrases } from '../components/Phrases/Phrases.jsx';
+import "./Eventos.sass";
 
 export const Eventos = (props) => {
   return (
@@ -16,7 +16,7 @@ export const Eventos = (props) => {
         />
       }
     >
-      <div className="Content">
+      <div className="Content Eventos">
         <div className="Content-row">
           <img className="Content-img-right" src="http://clinicanova.com.co/img/demo/internal/home-1.png" alt="Motion factory studios" />
           <h1>EVENTOS <br /> CORPORATIVOS</h1>
@@ -39,12 +39,4 @@ export const Eventos = (props) => {
       </div>
     </Layout>
   );
-};
-
-Eventos.propTypes = {
-
-};
-
-Eventos.defaultProps = {
-
 };

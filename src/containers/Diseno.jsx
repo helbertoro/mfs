@@ -1,9 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
 import { BtnPortafolio } from '../components/BtnPortafolio/BtnPortafolio.jsx';
 import { Phrases } from '../components/Phrases/Phrases.jsx';
+import "./Diseno.sass";
 
 export const Diseno = (props) => {
   return (
@@ -16,7 +16,7 @@ export const Diseno = (props) => {
         />
       }
     >
-      <div className="Content">
+      <div className="Content Diseno">
         <div className="Content-row">
           <img className="Content-img-right" src="http://clinicanova.com.co/img/demo/internal/home-1.png" alt="Motion factory studios" />
           <h1>DISEÑO GRÁFICO</h1>
@@ -38,12 +38,4 @@ export const Diseno = (props) => {
       </div>
     </Layout>
   );
-};
-
-Diseno.propTypes = {
-
-};
-
-Diseno.defaultProps = {
-
 };

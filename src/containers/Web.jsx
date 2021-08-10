@@ -1,9 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
 import { BtnPortafolio } from '../components/BtnPortafolio/BtnPortafolio.jsx';
 import { Phrases } from '../components/Phrases/Phrases.jsx';
+import "./Web.sass";
 
 export const Web = (props) => {
   return (
@@ -16,7 +16,7 @@ export const Web = (props) => {
         />
       }
     >
-      <div className="Content">
+      <div className="Content Web">
         <div className="Content-row">
           <img className="Content-img-right" src="http://clinicanova.com.co/img/demo/internal/home-1.png" alt="Motion factory studios" />
           <h1>SITIOS WEB</h1>
@@ -31,12 +31,4 @@ export const Web = (props) => {
       </div>
     </Layout>
   );
-};
-
-Web.propTypes = {
-
-};
-
-Web.defaultProps = {
-
 };

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
 
@@ -38,12 +37,4 @@ export const Nosotros = (props) => {
       </div>
     </Layout>
   );
-};
-
-Nosotros.propTypes = {
-
-};
-
-Nosotros.defaultProps = {
-
 };

@@ -1,9 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
 import { BtnPortafolio } from '../components/BtnPortafolio/BtnPortafolio.jsx';
 import { Phrases } from '../components/Phrases/Phrases.jsx';
+import "./Marketing.sass";
 
 export const Marketing = (props) => {
   return (
@@ -16,7 +16,7 @@ export const Marketing = (props) => {
         />
       }
     >
-      <div className="Content">
+      <div className="Content Marketing">
         <div className="Content-row">
           <img className="Content-img-right" src="http://clinicanova.com.co/img/demo/internal/home-1.png" alt="Motion factory studios" />
           <h1>MARKETING DIGITAL</h1>
@@ -40,12 +40,4 @@ export const Marketing = (props) => {
       </div>
     </Layout>
   );
-};
-
-Marketing.propTypes = {
-
-};
-
-Marketing.defaultProps = {
-
 };
