@@ -1,6 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Top } from './Top/Top.jsx';
 import { Footer } from './Footer/Footer.jsx';
+import { ContactFooter } from './Footer/ContactFooter.jsx';
 import './Layout.sass';
 
 export const Layout = (props) => {
@@ -11,7 +13,15 @@ export const Layout = (props) => {
         {props.banner}
       </div>
       {props.children}
-      <Footer/>
+      {!props.contactFooter ? <Footer/> : <ContactFooter/>}
     </div>
   );
+};
+
+Layout.propTypes = {
+  contactFooter: PropTypes.bool,
+};
+
+Layout.defaultProps = {
+  contactFooter: false
 };

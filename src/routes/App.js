@@ -11,6 +11,8 @@ import { Diseno } from '../containers/Diseno';
 import { Fotografia } from '../containers/Fotografia';
 import { Eventos } from '../containers/Eventos';
 import { Portafolio } from '../containers/Portafolio';
+import { Blog } from '../containers/Blog';
+import { Contacto } from '../containers/Contacto';
 import { NotFound } from '../containers/NotFound';
 
 const App = () => (
@@ -26,6 +28,8 @@ const App = () => (
       <Route exact path="/servicios/fotografia-profesional" component={Fotografia} />
       <Route exact path="/servicios/eventos-corporativos" component={Eventos} />
       <Route exact path="/portafolio" component={Portafolio} />
+      <Route exact path="/blog" component={Blog} />
+      <Route exact path="/contacto" component={Contacto} />
       <Route component={NotFound} />
     </Switch>
   </BrowserRouter>

@@ -26,8 +26,8 @@ export const Top = (props) => {
               </ul>
             </li>
             <li><a href="/portafolio">Portafolio</a></li>
-            <li><a href="?">Blog</a></li>
-            <li><a href="?">Contacto</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contacto">Contacto</a></li>
           </ul>
         </nav>
       </div>
