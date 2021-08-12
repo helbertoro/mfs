@@ -9,7 +9,7 @@ export const HomeContent = (props) => {
         <p><b>Somos una agencia publicitaria especializada</b> en impulsar marcas y posicionarlas en el mercado.</p>
       </div>
       <div className="HomeContent-img">
-        <img src="http://clinicanova.com.co/img/demo/home.png" alt="Motion Factory Studios" />
+        <img src="https://la-leyenda.com/img/demo/home.png" alt="Motion Factory Studios" />
       </div>
       <div className="HomeContent-description">
         <p><b>Ofrecemos un completo catálogo de servicios profesionales para empresas,</b> contamos con infraestructura y tecnología propia además del respaldo de un equipo altamente profesional comprometido con las necesidades de nuestros clientes.</p>

@@ -17,7 +17,7 @@ export const Transmision = (props) => {
     >
       <div className="Content Transmision">
         <div className="Content-row">
-          <img className="Content-img-right" src="http://clinicanova.com.co/img/demo/internal/home-1.png" alt="Motion factory studios" />
+          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/internal/home-1.png" alt="Motion factory studios" />
           <h1>TRANSMISIONES <br /> DE VIDEO EN VIVO</h1>
           <p>Impulsado por las nuevas tecnologías de la información y el poder de difusión de las redes sociales, las transmisiones de video en vivo combinan la más avanzada tecnología en registro de video con la intención de impulsar los productos y servicios de tu marca entre miles de seguidores interesados en la propuesta de valor de tu negocio. Ofrecemos un trabajo profesional para proyectar desde diferentes ángulos tus eventos, clases, capacitaciones, charlas virtuales o webinar.</p>
           <p>Sabemos que el streaming es hoy en día una potente herramienta para las compañías interesadas en transmitir eventos en vivo, reuniones y clases por internet representando una gran ventaja frente a la competencia y mejorando el reconocimiento de tu marca en el entorno digital.</p>

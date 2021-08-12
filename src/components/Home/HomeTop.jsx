@@ -30,7 +30,7 @@ export const HomeTop = (props) => {
           key={`index-${item.id}`}
           className="HomeTop-card"
         >
-          <img src={`http://clinicanova.com.co/img/demo/${item.icon}`} alt={item.title} />
+          <img src={`https://la-leyenda.com/img/demo/${item.icon}`} alt={item.title} />
           <h2>{item.title}</h2>
           <p>{item.description}</p>
         </div>

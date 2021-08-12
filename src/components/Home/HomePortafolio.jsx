@@ -61,7 +61,7 @@ export const HomePortafolio = (props) => {
         </ul>
         <div className="HomePortafolio-tabs-content">
           {elementToShow}
-          <img src="http://clinicanova.com.co/img/demo/home-portafolio.png" alt="" />
+          <img src="https://la-leyenda.com/img/demo/home-portafolio.png" alt="" />
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ export const Top = (props) => {
       <div className="Top-wrapper">
         <a className="Top-wrapper-logo" href="/">
           <figure>
-            <img src="http://clinicanova.com.co/img/demo/logo.png" alt="Motion Factory Studios" />
+            <img src="https://la-leyenda.com/img/demo/logo.png" alt="Motion Factory Studios" />
           </figure>
         </a>
         <nav>
