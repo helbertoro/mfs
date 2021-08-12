@@ -8,7 +8,7 @@
   max-width: 1200px
   margin: 0 auto 40px auto
   &-title
-    width: 50%
+    width: 100%
     padding-right: 30px
     box-sizing: border-box
     text-align: right
@@ -19,7 +19,7 @@
     p
       font-size: 1.5rem
   &-img
-    width: 50%
+    width: 100%
     img
       width: 100%
   &-description
@@ -28,3 +28,8 @@
     text-align: center
     p
       margin: 0
+
+@media (min-width: 767px)
+  .HomeContent
+    &-title, &-img
+      width: 50%
