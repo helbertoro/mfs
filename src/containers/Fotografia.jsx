@@ -19,7 +19,7 @@ export const Fotografia = (props) => {
     >
       <div className="Content Fotografia">
         <div className="Content-row">
-          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/internal/home-1.png" alt="Motion factory studios" />
+          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/fotografia.png" alt="Motion factory studios" />
           <h1>FOTOGRAFÍA <br /> PROFESIONAL</h1>
           <p>La potencia y expresividad visual de una buena fotografía, son elementos distintivos que permitirán reflejar las características de tu negocio. Ofrecemos fotografía digital para producto, eventos y publicitaria, adecuada a los parámetros técnicos necesarios para su utilización en medios impresos y redes sociales.</p>
           <p>La fotografía profesional resalta el valor de tu negocio y su oferta comercial, captando la atención de los clientes potenciales en favor de la compra de tus productos y servicios. La imagen de tu marca es fundamental para crear lazos de confianza con tus futuros compradores, permitiéndote además fortalecer la presencia digital de tu negocio en redes sociales y buscadores web, aumentando las conversiones y el volumen de ventas derivado de su impacto visual.</p>

@@ -18,7 +18,7 @@ export const Web = (props) => {
     >
       <div className="Content Web">
         <div className="Content-row">
-          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/internal/home-1.png" alt="Motion factory studios" />
+          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/web.png" alt="Motion factory studios" />
           <h1>SITIOS WEB</h1>
           <p>Contamos con un completo equipo especializado en creación de páginas web fácilmente administrables, diseñadas para brindar a los usuarios una experiencia de navegación intuitiva y amigable cumpliendo con las exigencias de posicionamiento establecidas por Google. Ofrecemosz acompañamiento integral a nuestros clientes, brindando servicios de soporte técnico, administración de contenidos y estrategias de posicionamiento web destinadas a aumentar el tráfico de visitantes en cada sitio web.</p>
         </div>

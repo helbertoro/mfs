@@ -19,7 +19,7 @@ export const Produccion = (props) => {
     >
       <div className="Content Produccion">
         <div className="Content-row">
-          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/internal/home-1.png" alt="Motion factory studios" />
+          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/produccion.png" alt="Motion factory studios" />
           <h1>PRODUCCIÓN <br /> DE VIDEO</h1>
           <p>Nos comprometemos con la realización profesional de los proyectos audiovisuales que tengas en mente, sin importar su complejidad. Ha llegado el momento de ofrecer a tus clientes una perspectiva innovadora de los productos y servicios que componen tu oferta comercial.</p>
           <p>La producción audiovisual se ha convertido en la mejor carta de presentación para tu marca, incluyendo formatos multiplataforma de alto impacto visual resultado del trabajo interdisciplinario de todo un equipo de profesionales comprometido con tus necesidades. Desarrollamos contenidos dinámicos orientados a diferenciar tu negocio en el mercado, transmitiendo su esencia y sus valores representativos para conectar con las creencias profundas de cada cliente potencial interesado en la oferta de valor de tu marca.</p>
