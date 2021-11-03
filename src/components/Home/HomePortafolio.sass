@@ -6,7 +6,6 @@
   padding: 50px
   border-radius: 20px
   box-shadow: 1px 1px 20px #DDD
-  display: none
   &-title
     margin-bottom: 20px
     h4
@@ -20,45 +19,38 @@
       display: inline-block
       vertical-align: middle
       font-size: 1.5rem
-  &-tabs
-    ul
-      margin: 0
-      padding: 0 0 10px 0
-      display: flex
-      justify-content: space-between
-      border-bottom: 1px solid $color-secondary
-      li
-        list-style-type: none
-        text-align: center
-        a
+  &-content
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+    &-item
+      position: relative
+      width: 32%
+      margin-bottom: 50px
+      box-sizing: border-box
+      border-radius: 20px
+      text-align: center
+      a
+        display: block
+        text-decoration: none
+        &:hover img
+          transform: scale(1.05)
+          transition-duration: 0.5s
+        &:hover span
+          background-color: $color-primary
+          color: $color-secondary-contrast
+        img
+          width: 100%
+          border-radius: 8px
+        span
           display: block
-          position: relative
+          position: absolute
+          width: 80%
           padding: 10px
-          font-size: 1.4rem
-          text-decoration: none
+          bottom: -15px
+          left: 10%
+          background-color: $color-secondary-contrast
+          box-shadow: 1px 1px 10px #DDD
+          border-radius: 8px
           color: $color-secondary
-          &:hover
-            font-family: 'nexaxbold'
-          &::before
-            position: absolute
-            bottom: -14px
-            left: 0
-            right: 0
-            content: ''
-            display: none
-            border-radius: 20px
-            width: 100%
-            height: 8px
-            background-color: $color-primary
-          &.--active
-            font-family: 'nexaxbold'
-            &::before
-              display: block
-    &-content
-      padding-top: 30px
-      img
-        width: 100%
-
-@media (min-width: 767px)
-  .HomePortafolio
-    display: block
+          font-size: 1.2rem

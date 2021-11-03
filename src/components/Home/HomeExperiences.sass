@@ -1,3 +1,5 @@
+@import "../../variables.sass"
+
 .HomeExperiences
   max-width: 1200px
   padding: 50px 0 100px 0
@@ -9,38 +11,49 @@
   &-title
     text-align: center
   &-testimonials
-    display: flex
-    flex-wrap: wrap
-    justify-content: space-evenly
-    align-items: center
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    grid-gap: 30px 
     margin-top: 100px
     &-item
-      position: relative
-      width: 80%
-      padding-top: 20px
-      font-size: 1.4rem
+      width: 100%
+      font-size: 1rem
       text-align: center
-      &:nth-child(1)
+      svg
+        color: purple
+    &-video
+      position: relative
+      a:hover img
+        transform: scale(1.05)
+        transition-duration: 0.5s
+      img
+        width: 100%
+        border-radius: 8px
+        box-shadow: 5px 5px 5px #ddd
+      span
+        position: absolute
+        display: flex
+        justify-content: center
+        align-items: center
+        z-index: 1
+        width: 36px
+        height: 36px
+        top: 50%
+        left: 50%
+        transform: translate(-18px, -18px)
+        border-radius: 50%
+        background-color: $color-primary
         svg
-          color: purple
-      &:nth-child(2)
-        svg
-          color: orange
-      &:nth-child(3)
-        svg
-          color: blue
+          color: $color-third
+    &-content
+      position: relative
+      margin-top: 20px
+      padding: 10px 15px 0 15px
   &-quote-left
     position: absolute
     top: 0
     left: 0
   &-quote-right
     position: absolute
-    bottom: 0
+    bottom: 10px
     right: 30px
-
-@media (min-width: 767px)
-  .HomeExperiences
-    &-testimonials
-      flex-wrap: nowrap
-      &-item
-        width: 25%

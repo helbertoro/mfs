@@ -1,67 +1,57 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './HomePortafolio.sass';
 
-export const HomePortafolio = (props) => {
-  const [elementToShow, setElementToShow] = useState('Producción de video');
-  const data = [
-    {
-      id: 1,
-      title: 'Producción de video',
-    },
-    {
-      id: 2,
-      title: 'Transmisiones en vivo',
-    },
-    {
-      id: 3,
-      title: 'Marketing digital',
-    },
-    {
-      id: 4,
-      title: 'Diseño web',
-    },
-    {
-      id: 5,
-      title: 'Diseño gráfico',
-    },
-    {
-      id: 6,
-      title: 'Fotografía profesional',
-    },
-    {
-      id: 7,
-      title: 'Eventos corporativos',
-    },
-  ];
-
-  const handleClick = (e, item) => {
-    e.preventDefault();
-    setElementToShow(item)
-  };
-
+export const HomePortafolio = () => {
   return (
     <div className="HomePortafolio">
       <div className="HomePortafolio-title">
         <h4>PORTAFOLIO</h4>
         <p>¡Ideas innovadoras para <b>grandes proyectos</b>!</p>
       </div>
-      <div className="HomePortafolio-tabs">
-        <ul>
-          {data.map((item) => (
-            <li key={`home-portafolio-${item.id}`}>
-              <a
-                href="?"
-                onClick={e => handleClick(e, item.title)}
-                className={elementToShow === item.title ? '--active': ''}
-              >
-                {item.title}
-              </a>
-            </li>
-          ))}
-        </ul>
-        <div className="HomePortafolio-tabs-content">
-          {elementToShow}
-          <img src="https://la-leyenda.com/img/demo/home-portafolio.png" alt="" />
+      <div className="Content-row">
+        <div className="HomePortafolio-content">
+          <div className="HomePortafolio-content-item">
+            <a href="?">
+              <img src="https://la-leyenda.com/img/demo/portafolio/video.jpg" alt="Producción de video" />
+              <span>Producción de video</span>
+            </a>
+          </div>
+          <div className="HomePortafolio-content-item">
+            <a href="?">
+              <img src="https://la-leyenda.com/img/demo/portafolio/transmision.jpg" alt="" />
+              <span>Transmisiones en vivo</span>
+            </a>
+          </div>
+          <div className="HomePortafolio-content-item">
+            <a href="?">
+              <img src="https://la-leyenda.com/img/demo/portafolio/marketing.jpg" alt="" />
+              <span>Marketing digital</span>
+            </a>
+          </div>
+          <div className="HomePortafolio-content-item">
+            <a href="?">
+              <img src="https://la-leyenda.com/img/demo/portafolio/web.jpg" alt="" />
+              <span>Diseño web</span>
+            </a>
+          </div>
+          <div className="HomePortafolio-content-item">
+            <a href="?">
+              <img src="https://la-leyenda.com/img/demo/portafolio/diseno.jpg" alt="" />
+              <span>Diseño gráfico</span>
+            </a>
+          </div>
+          <div className="HomePortafolio-content-item">
+            <a href="?">
+              <img src="https://la-leyenda.com/img/demo/portafolio/foto.jpg" alt="" />
+              <span>Fotografía profesional</span>
+            </a>
+          </div>
+          <div className="HomePortafolio-content-item">
+            <a href="?">
+              <img src="https://la-leyenda.com/img/demo/portafolio/eventos.jpg" alt="" />
+              <span>Eventos corporativos</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

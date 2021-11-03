@@ -16,7 +16,7 @@ export const Footer = (props) => {
               <div className="Footer-icon">
                 <FontAwesomeIcon icon={faPhoneAlt}/>
               </div>
-              <span>PBX: 571- 472 5933</span>
+              <span>PBX: 571- 623 3606</span>
             </li>
             <li>
               <div className="Footer-icon">

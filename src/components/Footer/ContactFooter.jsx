@@ -9,7 +9,7 @@ export const ContactFooter = (props) => {
       <ul>
         <li>
           <FontAwesomeIcon icon={faPhoneAlt}/>
-          <span>PBX: 571- 472 5933</span>
+          <span>PBX: 571- 623 3606</span>
         </li>
         <li>
           <FontAwesomeIcon icon={faMobileAlt}/>

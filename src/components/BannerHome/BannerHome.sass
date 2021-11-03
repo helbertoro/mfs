@@ -1,0 +1,34 @@
+@import '../../variables.sass'
+
+.BannerHome
+  width: 100%
+  height: 400px
+  padding-bottom: 60px
+  background-image: url("https://la-leyenda.com/img/demo/back_top.png")
+  background-repeat: no-repeat
+  background-position: center bottom
+  &-wrapper
+    width: $container-width
+    height: 100%
+    margin: 0 auto
+    display: flex
+    align-items: center
+  &-content
+    width: 470px
+    margin-top: 90px
+    h3
+      margin: 0
+      font-size: 2.5rem
+      line-height: 1
+      color: $color-primary
+    p
+      margin: 10px 0
+      font-size: 1.7rem
+    a
+      padding: 5px 10px
+      font-size: 1.4rem
+      color: $color-third
+      text-decoration: none
+      background-color: $color-primary
+      &:hover
+        background-color: $color-secondary

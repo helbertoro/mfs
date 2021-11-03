@@ -6,20 +6,20 @@ export const HomeTop = (props) => {
     {
       id: 1,
       icon: 'home_icon_video.png',
-      title: 'Producción de video',
-      description: 'Creamos experiencias audiovisuales diferenciadoras',
+      title: 'Producción de video',
+      description: 'Realizamos contenido profesional de manera 100% efectiva.',
     },
     {
       id: 2,
       icon: 'home_icon_transmision.png',
       title: 'Transmisiones en vivo',
-      description: 'Difusión en video de alta calidad para eventos y lanzamientos de producto',
+      description: 'Interactúa con tu grupo objetivo en tiempo real.',
     },
     {
       id: 3,
       icon: 'home_icon_marketing.png',
       title: 'Marketing digital',
-      description: 'Impulsamos estratégicamente el crecimiento de tu negocio en redes sociales',
+      description: '¡Asegura el crecimiento comercial de tu negocio en redes sociales!',
     }
   ];
 

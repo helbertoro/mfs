@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Top.sass';
 
 export const Top = (props) => {
@@ -12,22 +13,22 @@ export const Top = (props) => {
         </a>
         <nav>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/nosotros">Nosotros</a></li>
+            <li><NavLink to="/">Home</NavLink></li>
+            <li><NavLink to="/nosotros">Nosotros</NavLink></li>
             <li><span>Servicios</span>
               <ul className="Top-submenu">
-                <li><a href="/servicios/produccion-de-video">Producción de video</a></li>
-                <li><a href="/servicios/transmisiones-de-video-en-vivo">Transmisiones de video en vivo</a></li>
-                <li><a href="/servicios/marketing-digital">Marketing digital</a></li>
-                <li><a href="/servicios/sitios-web">Sitios web</a></li>
-                <li><a href="/servicios/diseño-grafico">Diseño gráfico</a></li>
-                <li><a href="/servicios/fotografia-profesional">Fotografía profesional</a></li>
-                <li><a href="/servicios/eventos-corporativos">Eventos corporativos</a></li>
+                <li><NavLink to="/servicios/produccion-de-video">Producción de video</NavLink></li>
+                <li><NavLink to="/servicios/transmisiones-de-video-en-vivo">Transmisiones de video en vivo</NavLink></li>
+                <li><NavLink to="/servicios/marketing-digital">Marketing digital</NavLink></li>
+                <li><NavLink to="/servicios/sitios-web">Sitios web</NavLink></li>
+                <li><NavLink to="/servicios/diseño-grafico">Diseño gráfico</NavLink></li>
+                <li><NavLink to="/servicios/fotografia-profesional">Fotografía profesional</NavLink></li>
+                <li><NavLink to="/servicios/eventos-corporativos">Eventos corporativos</NavLink></li>
               </ul>
             </li>
-            <li><a href="/portafolio">Portafolio</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contacto">Contacto</a></li>
+            <li><NavLink to="/portafolio">Portafolio</NavLink></li>
+            <li><NavLink to="/blog">Blog</NavLink></li>
+            <li><NavLink to="/contacto">Contacto</NavLink></li>
           </ul>
         </nav>
       </div>

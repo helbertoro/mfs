@@ -1,17 +1,13 @@
 import React from 'react';
 import { Layout } from '../components/Layout.jsx';
-import { Banner } from '../components/Banner/Banner.jsx';
+import { BannerHome } from '../components/BannerHome/BannerHome.jsx';
 import { Home as HomeComponent } from '../components/Home/Home.jsx';
 
 export const Home = (props) => {
   return (
     <Layout
       banner={
-        <Banner
-          color="#FFFFFF"
-          title="Experiencia y profesionalismo <span>a tu alcance</span>"
-          image="demo.png"
-        />
+        <BannerHome/>
       }
     >
       <HomeComponent/>
