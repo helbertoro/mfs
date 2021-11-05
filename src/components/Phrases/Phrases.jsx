@@ -14,23 +14,21 @@ export const Phrases = (props) => {
   return (
     <div className="Phrases">
       <div className="Phrases-content">
-        <div
-          dangerouslySetInnerHTML={{ __html: data.content[index].phrase }}
-        />
+        <div dangerouslySetInnerHTML={{ __html: data.phrase }}/>
       </div>
       <div className="Phrases-title">
         <ul>
           {data.content.map((item, i) => (
             <li
               key={`Phrases-title-${i}`}
-              style={{height: `calc(100%/${data.content.length}`}}
             >
               <button
                 onClick={handleClick(i)}
                 className={index === i ? 'Phrases-button --active' : 'Phrases-button'}
-                >
+              >
                   {item.title}
-                </button>
+              </button>
+              <div dangerouslySetInnerHTML={{ __html: item.text }}/>
             </li>
           ))}
         </ul>

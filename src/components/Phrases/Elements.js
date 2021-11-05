@@ -1,115 +1,121 @@
 export const Elements = [
   {
     page: 'produccion',
+    phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p><p>DE SERVICIOS EN PRODUCCIÓN DE VIDEO</p><p>perfecto para medianos y grandes negocios</p>',
     content: [
       {
         title: 'vídeos institucionales',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p><p>DE SERVICIOS EN PRODUCCIÓN DE VIDEO</p><p>perfecto para medianos y grandes negocios 1</p>',
+        text: '<p>La producción de material audiovisual permite posicionar tu marca y alcanzar nuevos mercados. Diseñamos contenidos de alto valor estratégico gracias a nuestros servicios de pre-producción, producción y post-producción de videos institucionales, videos promocionales y videos de producto.</p><p>Creamos experiencias visuales de alto impacto en formatos de amplia divulgación para medios digitales, consolidando el crecimiento de empresas que buscan dar a conocer y promocionar su catálogo de productos y servicios especializados, mejorando la credibilidad de su imagen corporativa y las relaciones comerciales con sus clientes.</p><p>Contamos historias que conectan con el sentir de las personas, despertamos emociones positivas asociadas con tu marca y reflejamos la pujanza de tu capital humano, siempre proyectando solidez y profesionalismo en cada uno de los procesos productivos incorporados en tu empresa.</p>',
       },
       {
         title: 'vídeos animados',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p><p>DE SERVICIOS EN PRODUCCIÓN DE VIDEO</p><p>perfecto para medianos y grandes negocios 2</p>',
+        text: '<p>Los contenidos animados expresan con simplicidad los procesos de alta complejidad en tu negocio. Brindamos una amplia oferta de productos audiovisuales en formatos de video animado 2D o whiteboard scribing para la generación de contenidos interactivos de alto impacto.</p><p>Generalmente esta técnica es empleada al momento de exponer procesos de alta complejidad en relación con los productos y servicios de tu compañía, dejando en claro a tus empleados, seguidores, clientes y proveedores la razón de ser de tu negocio y el impacto de tu misión institucional en el avance de la sociedad.</p><p>Además de la reducción en los costos de producción y postproducción, los videos animados ofrecen un mejor posicionamiento web en los motores de búsqueda, captando con extrema eficacia la atención de los espectadores sobre los conceptos allí tratados y centrándose exclusivamente en la promoción comercial de tu negocio.</p>',
       },
       {
         title: 'comerciales',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p><p>DE SERVICIOS EN PRODUCCIÓN DE VIDEO</p><p>perfecto para medianos y grandes negocios 3</p>',
+        text: '<p>Es momento de visibilizar profesionalmente los productos y servicios de tu marca; contamos con la más avanzada tecnología audiovisual del mercado perfecta para la realización de comerciales de alta calidad visual, optimizando el crecimiento de tu negocio en medios digitales.</p><p>Entendemos la importancia de gestionar acertadamente la imagen de tu negocio, razón por la cual contamos con una extensa experiencia en producción de comerciales para televisión y medios digitales, ofreciendo acompañamiento personalizado a nuestros clientes desde la conceptualización y planeación estratégica del spot hasta la entrega final del mismo.</p><p>El desarrollo de los guiones literario y técnico es sin duda el recurso de planeación más importante implementado en nuestro flujo de trabajo, dado que nos permite fijar los tiempos de realización con total claridad y precisar con anticipación los recursos técnicos y humanos a emplear durante el rodaje, en cumplimiento de los plazos acordados previamente con el cliente.</p><p>Ofrecemos la máxima calidad visual para videos de máximo 30 segundos de duración, eligiendo estrictamente los contenidos que sean relevantes para la marca y refuercen el mensaje comercial a transmitir. Sin duda la mejor alternativa para presentar tus productos con toda la creatividad y el impacto visual que merece tu marca.</p>',
       }
     ]
   },
   {
     page: 'marketing',
+    phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO DE SERVICIOS</p> <p>MARKETING DIGITAL</p> <p>perfecto para medianos y grandes negocios:</p>',
     content: [
       {
         title: 'social media',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO DE SERVICIOS</p> <p>MARKETING DIGITAL</p> <p>perfecto para medianos y grandes negocios: 1</p>',
+        text: '<p>Los ecosistemas digitales agrupan la mayor cantidad de clientes potenciales interesados en tu marca; nos encargamos de gestionar, conectar y potencializar tu negocio en las diferentes redes sociales donde tienes presencia, optimizando estratégicamente tu posicionamiento y permitiéndote elevar los márgenes de conversión alcanzados.</p><p>La administración estratégica de redes sociales exige de un conocimiento claro en relación con las tendencias digitales para la creación de contenidos de alto impacto y una orientación precisa hacia las necesidades del cliente, con el propósito de generar conversaciones positivas que impulsen el reconocimiento de tu marca y construyan sólidos lazos de confianza entre tu empresa y las comunidades digitales donde tiene presencia. El manejo estratégico de la gestión de redes sociales en tu negocio brinda no solo resultados óptimos en la comercialización de tus productos y servicios, sino que además permite reducir el costo de la inversión publicitaria al reorientar las campañas en curso, para alcanzar resultados óptimos en torno a su segmentación y alcance.</p><p>Adicionalmente a las campañas de posicionamiento pago, brindamos una completa implementación estratégica orientada al desarrollo de contenidos virales de amplio alcance orgánico, principalmente con el propósito de llegar a nuevos compradores y grupos de interés apoyando las estrategias publicitarias de tu negocio. Este enfoque centrado en la mejora del posicionamiento digital de tu marca se basa en la búsqueda de mejores oportunidades de negocio y estimula la compra de tus productos y servicios.</p>',
       },
       {
         title: 'inbound marketing',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO DE SERVICIOS</p> <p>MARKETING DIGITAL</p> <p>perfecto para medianos y grandes negocios: 2</p>',
+        text: '<p>La efectividad de los contenidos divulgados a través de las redes sociales impacta directamente en el favoritismo de las comunidades virtuales, permitiéndote reflejar los atributos de tu marca. Nos encargamos de diseñar e implementar una completa estrategia de contenidos audiovisuales enfocados en aumentar la popularidad de tu marca en redes sociales - Facebook, Instagram, LinkedIn, Twitter y Youtube- ayudando a la captación y retención de clientes potenciales.</p><p>El marketing de contenidos es una estrategia de mercadeo digital centrada en atraer compradores potenciales de manera orgánica, seleccionando estratégicamente las redes sociales que mejor respondan a las necesidades de la marca. Hoy en día las empresas que deseen mantener su existencia en el mercado necesitan garantizar su participación online, razón por la cual se necesita con urgencia la creación de una estrategia de contenidos centrada específicamente en dar a conocer tu marca reconociendo los intereses de las personas a quienes van dirigidos tus productos y servicios.</p><p>Como parte fundamental del Inbound Marketing, las marcas reconocen la necesidad de fortalecer su estrategia de contenidos mejorando la relación con sus clientes y dando comienzo a la captación de nuevos compradores potenciales interesados en sus productos y servicios; esta estrategia fomenta un acercamiento al grupo objetivo de tu marca donde la comunicación abierta y la interacción constante son la base para consolidar relaciones a largo plazo que se traduce en nuevas ventas y oportunidades de negocio.</p>',
       }
     ]
   },
   {
     page: 'web',
+    phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p> <p>DE SITIOS WEB</p> <p>perfecto para medianos y grandes negocios:</p>',
     content: [
       {
         title: 'landing pages',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p> <p>DE SITIOS WEB</p> <p>perfecto para medianos y grandes negocios: 1</p>',
+        text: '<p>Contamos con un completo despliegue estratégico de soluciones para la creación de páginas de aterrizaje acorde con las estrategias de remarketing impulsadas por tu negocio.</p><p>Las páginas de aterrizaje o landing page son espacios diseñados específicamente para convertir visitantes en leads, un lugar perfecto para promocionar tus productos y servicios destacando sus beneficios para el comprador y permitiéndole acceder a beneficios especiales a cambio del registro autorizado de su información personal.</p><p>La información personal de los compradores será usada para establecer contacto personal con ellos e influir directamente en su decisión de compra, implementando posteriormente estrategias de fidelización a largo plazo que incentivarán el crecimiento comercial de tu negocio en comparación a la competencia. Las landing page generalmente se encuentran fuera de la navegación habitual de nuestra página web y suelen ser accesibles por los usuarios a través de campañas publicitarias en redes sociales y motores de búsqueda, con el propósito de mejorar su visibilidad.</p>',
       },
       {
         title: 'portales corporativos',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p> <p>DE SITIOS WEB</p> <p>perfecto para medianos y grandes negocios: 2</p>',
+        text: '<p>Creación de portales web empresariales para la divulgación de los productos y servicios ofrecidos por tu marca, brindando a tus visitantes una experiencia de navegación amigable compatible con los objetivos de tu marca.</p><p>Un espacio perfecto para mostrar tus productos, servicios y la misión institucional de tu negocio, ampliando la información relacionada con tu oferta de valor para consolidar nuevos clientes y oportunidades reales de venta; la alternativa ideal para aumentar la visibilidad de tu negocio en medios digitales, proyectar mayor profesionalismo, aumentar la confianza de tus clientes y fidelizar nuevos compradores afines a la oferta comercial de tu negocio.</p>',
       },
       {
         title: 'tiendas on-line',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p> <p>DE SITIOS WEB</p> <p>perfecto para medianos y grandes negocios: 3</p>',
+        text: '<p>La transformación digital no solo ha generado una transformación en la manera como nos relacionamos con las personas, sino además ha definido radicalmente la manera como compramos y vendemos cualquier producto o servicio. Internet se ha convertido en la plataforma más importante para el crecimiento de los negocios, abriendo nuevos mercados y brindando oportunidades de venta únicas imposibles de alcanzar únicamente a través de medios convencionales.</p><p>Los E – Commerce o tiendas virtuales permiten a tu negocio contar con un completo portafolio de productos y servicios en línea, aumentando su margen de ventas y reforzando la comercialización presencial en tienda física, siendo un espacio propicio para impulsar el crecimiento de tu negocio en mercados internacionales, dada la facilidad con la cual compradores de todo el mundo acceden a internet e impulsan el crecimiento comercial de las empresas con presencia digital.</p><p>En Motion Factory Studios nos especializamos en la implementación de portales transaccionales para la promoción y venta del catálogo de productos de tu compañía, visualmente atractivos y técnicamente funcionales para incentivar la conversión de los visitantes.</p>',
       }
     ]
   },
   {
     page: 'diseno',
+    phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p> <p>DE DISEÑO GRÁFICO</p> <p>perfecto para medianos y grandes negocios:</p>',
     content: [
       {
         title: 'creación de imagen corporativa y material p.o.p.',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p> <p>DE DISEÑO GRÁFICO</p> <p>perfecto para medianos y grandes negocios: 1</p>',
+        text: '<p>Nuestro equipo de diseñadores gráficos generan soluciones orientadas a la conceptualización de piezas de branding corporativo, tales como: Material P.O.P., imagen corporativa, tarjetas de presentación, hojas membrete, sobres, piezas publicitarias y flyers.</p><p>La papelería corporativa y los soportes visuales donde la marca tiene presencia, son esenciales al momento de hacer presencia en los medios donde su audiencia participa activamente. Además del reconocimiento logrado entre los seguidores y compradores potenciales del negocio, la conceptualización de la imagen corporativa de una empresa sirve como elemento distintivo que induce la identificación y el sentido de pertenencia entre sus trabajadores, accionistas y todos los participantes que conforman el entramado humano de la marca.</p><p>Disponer de una papelería corporativa personalizada asegura no solo la consolidación de una sólida imagen de marca sino además garantiza que tu negocio sea percibido por tus clientes y comunidad en general de manera conveniente para tus intereses comerciales. La reputación de tu negocio es fundamental a la hora de proyectar solides y construir lazos de confianza entre nuevos inversores y clientes potenciales.</p><p>En esencia, la identidad corporativa se relaciona directamente con la presentación de una papelería visual adecuada y en total consonancia con los valores que representan a tus clientes. Un elemento distintivo que permite reforzar los valores de marca y desde luego transmitir profesionalismo, distinción y calidad frente a la competencia. De igual forma y en respuesta a los cambios en las tendencias de diseño actuales, puedes brindar a tu marca una renovación de sus elementos gráficos para hacerlos coincidir con los intereses de una audiencia cada vez más involucrada en medios digitales.</p><p>Sin duda, el manejo profesional de la imagen corporativa de tu negocio tiene un interés especial en la captación de nuevos mercados, fidelizando los clientes actuales de tu marca y brindando una mejora en el posicionamiento de tu negocio. Calidad, profesionalismo y confianza, tres atributos clave a la hora de seleccionar un aliado en la renovación de la imagen de tu empresa.</p>',
       },
       {
         title: 'ilustración y graficación de video',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p> <p>DE DISEÑO GRÁFICO</p> <p>perfecto para medianos y grandes negocios: 2</p>',
+        text: '<p>Por medio de la animación es posible transmitir de manera sencilla conceptos de gran poder persuasivo. Disponemos de modernas técnicas de graficación en 2D y whiteboard, generando un mayor impacto en nuestras realizaciones audiovisuales.</p><p>La elección de una línea grafica de alta sencillez acorde con la naturaleza de los medios donde será presentada y en total concordancia con la identidad visual de tu negocio, serán los puntos clave a tener en cuenta en la realización de videos animados que incluyan las técnicas de graficación más avanzadas del mercado. En Motion Factory Studios entendemos la importancia de brindar calidad a nuestros clientes, incorporando en nuestro catálogo de servicios la más avanzada tecnología en edición de video, perfecta para sacar el máximo provecho en la realización audiovisual de cada proyecto.</p>',
       },
       {
         title: 'diseño de marketing digital',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p> <p>DE DISEÑO GRÁFICO</p> <p>perfecto para medianos y grandes negocios: 3</p>',
+        text: '<p>Reconociendo la importancia de la participación de tu marca en el mundo digital, ofrecemos la conceptualización estratégica de piezas digitales para aumentar el posicionamiento y alcance de tu negocio en redes sociales, en respuesta a las necesidades actuales del mercado.</p><p>Nada se compara con el profesionalismo que brinda la elección de una línea gráfica profesional, perfecta para posicionar tu negocio en redes sociales. Como parte de nuestro portafolio de soluciones en diseño gráfico para negocios que buscan mejorar su reconocimiento digital, contamos con un equipo de diseñadores especializado en el desarrollo de contenidos visualmente impactantes que incentivarán las interacciones y acelerarán el crecimiento de tus seguidores en medios digitales.</p><p>¿Te has preguntado por qué a pesar de contar con ideas de alta creatividad, los contenidos que publicas en redes sociales no tienen el impacto que esperado? Además de una sólida estrategia de posicionamiento digital, el diseño gráfico es fundamental a la hora de mejorar el atractivo de tus publicaciones y atraer nuevas interacciones en redes sociales.</p><p>Sumado a lo anterior y como parte de una completa estrategia de contenidos, los contenidos en video especialmente aquellos basados en animaciones en 2D y 3D impulsan el crecimiento de las interacciones en redes sociales, permitiendo a tu marca transmitir conceptos complejos en relación con sus procesos internos, siendo comprensibles por la mayor parte de tus seguidores e impulsando el crecimiento general de las ventas.</p><p>Contamos con software de última tecnología y todo un equipo de especialistas en diseño, especializados en brindar a tu marca un impulso visual que te permitirá atraer nuevas audiencias y definir el estilo visual de tu marca en medios digitales, reforzando los valores de tu compañía generando credibilidad y confianza en el mercado.</p>',
       }
     ]
   },
   {
     page: 'fotografia',
+    phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p> <p>DE FOTOGRAFÍA PROFESIONAL</p> <p>perfecto para medianos y grandes negocios:</p>',
     content: [
       {
         title: 'fotografía corporativa',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p> <p>DE FOTOGRAFÍA PROFESIONAL</p> <p>perfecto para medianos y grandes negocios: 1</p>',
+        text: '<p>Contamos con equipos de vanguardia para transmitir con profesionalismo y distinción la mejor imagen de tu compañía. Nuestro amplio portafolio de soluciones en fotografía inmobiliaria, cadena de producción, talento humano y tecnología revelarán con gran precisión cada área que compone tu negocio.</p><p>Las empresas en su proceso de constante expansión comercial, han precisado la necesidad de establecer una sólida imagen de marca que refleje con precisión sus procesos internos y la calidad de su ambiente de trabajo, principalmente para fortalecer los valores que caracterizan a su equipo de trabajo y demostrar a los clientes y proveedores la confiabilidad en sus procesos internos. La realización fotográfica exige de un nivel de precisión elevado, además de una producción rigurosa que permita visibilizar la mejor imagen de tu compañía sin alejarse de los valores que la representan.</p><p>Existen diferentes alternativas al momento de definir la línea fotográfica que necesita tu negocio. Por un lado podemos centrarnos en visibilizar sus instalaciones, actividades y el personal que compone cada área de trabajo. Al momento de fomentar el posicionamiento digital de tu negocio, nada es más recomendable que disponer de un excelente catálogo fotográfico de productos o servicios, orientando en definitiva la decisión de compra de tus clientes al ofrecer contenidos visuales de la más alta calidad.</p>',
       },
       {
         title: 'fotografía publicitaria y de producto',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p> <p>DE FOTOGRAFÍA PROFESIONAL</p> <p>perfecto para medianos y grandes negocios: 2</p>',
+        text: '<p>Nuestros directores de arte y fotógrafos profesionales harán de cada imagen un reflejo exacto de tus ideas. Cada fotografía es conceptualizada para su uso en plataformas web e impresos, alcanzando el impacto deseado en tus clientes.</p><p>La fotografía de producto sin duda alguna se ha convertido en uno de los elementos más importantes en la identidad visual de todo negocio, dado que permite a los compradores concentrarse exclusivamente en las características del producto que desean adquirir, sobretodo en catálogos virtuales donde no se tiene contacto físico con el artículo de interés previamente al proceso de compra.</p><p>Sin duda los portales ecommerce privilegian el uso de catálogos con imágenes de alto impacto donde la marca presente sus principales líneas de producto de la manera más atractiva posible. Este será un factor determinante a la hora de incentivar la compra y mejorar la primera impresión que los compradores tienen sobre tu negocio, de allí la importancia de contar con asistencia profesional especializada que no solo disponga de los equipos necesarios para garantizar un registro visual exitoso, sino además una postoproducción elaborada con base en los requerimientos de las plataformas digitales donde se verán exhibidas las fotografías de producto.</p><p>La imagen de cualquier negocio es esencial a la hora de convencer y comunicar los valores de tu marca y su oferta comercial, despertando la confianza entre tus clientes potenciales y mejorando la rentabilidad de tu marca.</p>',
       },
       {
         title: 'fotografía de cubrimiento de evento',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO</p> <p>DE FOTOGRAFÍA PROFESIONAL</p> <p>perfecto para medianos y grandes negocios: 3</p>',
+        text: '<p>La fotografía de eventos es esencial dado que incentiva la credibilidad en tu negocio, adicionalmente proporciona un repertorio variado de material visual perfecto para incorporar en tus redes sociales, mejorando el reconocimiento de tu marca en medio de un mercado digital altamente competitivo. Nuestro equipo profesional está en total capacidad de capturar las emociones y reacciones de los asistentes, respondiendo de manera acertada frente a la presión impuesta durante el desarrollo del evento.</p><p>Las medidas de bioseguridad son esenciales a la hora de prestar un servicio profesional, centrado no solo en la calidad del material entregado al cliente sino además en la protección a la integridad de nuestros camarógrafos y asistentes al evento. La prevención es fundamental y cada día trabajamos sin descanso por ofrecer confianza a nuestros clientes, garantizando su bienestar durante la realización de nuestro trabajo.</p><p>Registramos cada detalle durante el desarrollo de tus eventos. Disponemos de cámaras equipadas con obturadores antidistorsión de captura rápida y sensores de movimiento para capturas en bajas condiciones de iluminación, ofreciendo una calidad fotográfica insuperable.</p>',
       }
     ]
   },
   {
     page: 'eventos',
+    phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO DE SERVICIOS EN</p> <p>EVENTOS CORPORATIVOS</p> <p>perfecto para medianos y grandes negocios:</p>',
     content: [
       {
         title: 'alquiler de pantallas y proyectores',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO DE SERVICIOS EN</p> <p>EVENTOS CORPORATIVOS</p> <p>perfecto para medianos y grandes negocios:</p> 1',
+        text: '<p>Considerando la importancia de brindar a los asistentes una experiencia audiovisual de vanguardia, ofrecemos proyectores de última tecnología desde los 5.000 hasta 20.000 lúmenes, pantallas LED y telones de proyección para una experiencia visual envolvente.</p><p>Alcanza una imagen de insuperable calidad perfecta para que tus asistentes se sientan en total comodidad con las presentaciones expuestas, sobretodo en espacios de gran amplitud. En relación con nuestros proyectores de gran escala, disponemos además de ópticas estándar e intercambiables con el propósito de mejorar la visibilidad según las condiciones de uso.</p><p>Para el caso de las pantallas de proyección ofrecemos alternativas convencionales tipo trípode, recomendable especialmente por su bajo costo siendo ideal para proyecciones en espacios reducidos y con baja asistencia de participantes. Para el caso de proyecciones profesionales que incluyen la concurrencia masiva de asistentes, ofrecemos pantallas LED de gran impacto visual adaptadas a interiores o exteriores gracias al ajuste de su capacidad lumínica.</p>',
       },
       {
         title: 'alquiler de sonido',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO DE SERVICIOS EN</p> <p>EVENTOS CORPORATIVOS</p> <p>perfecto para medianos y grandes negocios:</p> 2',
+        text: '<p>Somos los únicos proveedores de servicios en el país que cuentan con un equipamiento de sonido completo incluyendo sonido line array, sonido convencional, consolas de audio digitales, micrófonos inalámbricos e ingenieros de audio especializados para brindar una experiencia acústica inigualable.</p>',
       },
       {
         title: 'alquiler de iluminación',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO DE SERVICIOS EN</p> <p>EVENTOS CORPORATIVOS</p> <p>perfecto para medianos y grandes negocios:</p> 3',
+        text: '<p>Un manejo profesional de la iluminación es de vital importancia para dar cumplimiento a los objetivos del evento. Para cumplir este propósito ofrecemos cabezas móviles, luces robóticas, par led, seguidores y controladores DMX que despertarán las más intensas emociones en tus espectadores.</p>',
       },
       {
         title: 'master de control',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO DE SERVICIOS EN</p> <p>EVENTOS CORPORATIVOS</p> <p>perfecto para medianos y grandes negocios:</p> 4',
+        text: '<p>Contamos con equipos de monitoreo avanzado para registrar en alta definición cualquier acontecimiento en tiempo real que suceda durante la realización de tus eventos, incluidos: servidores, cámaras y sistemas de ingesta, para responder a las necesidades de tu audiencia en cumplimiento de los objetivos de tu evento.</p>',
       },
       {
         title: 'alquiler de cctv',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO DE SERVICIOS EN</p> <p>EVENTOS CORPORATIVOS</p> <p>perfecto para medianos y grandes negocios:</p> 5',
+        text: '<p>Ofrecemos un completo despliegue técnico y humano destinado a registrar en alta definición cualquier acontecimiento en tiempo real durante el desarrollo de tus eventos, tales como: Grúas de tv, dollies, stedicams, motion control, switchers de videos y monitores de previsualización.</p>',
       },
       {
         title: 'escenografía',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO DE SERVICIOS EN</p> <p>EVENTOS CORPORATIVOS</p> <p>perfecto para medianos y grandes negocios:</p> 6',
+        text: '<p>El montaje profesional de escenarios determina el impacto del mensaje a transmitir durante el desarrollo de tu evento. En vista de su importancia te ofrecemos el diseño, impresión y montaje de escenarios, stands, backings, aforos de pantallas y ambientación de eventos con el propósito de generar una experiencia altamente profesional que cautive a tus asistentes.</p>',
       },
       {
         title: 'personal especializado',
-        phrase: '<p>ACCEDE A NUESTRO VARIADO PORTAFOLIO DE SERVICIOS EN</p> <p>EVENTOS CORPORATIVOS</p> <p>perfecto para medianos y grandes negocios:</p> 7',
+        text: '<p>El éxito en la realización de un evento corporativo depende principalmente del personal de apoyo involucrado en la planeación y ejecución del mismo. Además de brindar a nuestros clientes un selecto equipo de trabajo conformado por especialistas de amplia trayectoria en promoción e impulso de eventos, en Motion Factory Studios garantizamos la capacitación de nuestro equipo humano en protocolos de actividad, speech, puntualidad, backup, manejo y recolección de información propia del evento y gestión de imprevistos.</p><p>Nada más importante que brindar a los asistentes una experiencia de servicio agradable durante el desarrollo de cada evento. Ponemos a tu disposición un completo staff de apoyo para eventos que incluye modelos de protocolo, presentadores, animadores, Dj´s, meseros, operadores logísticos, bailarines, grupos musicales y actores profesionales.</p>',
       }
     ]
   }
