@@ -1,4 +1,5 @@
 @import "../../variables.sass"
+@import "/node_modules/react-modal-video/scss/modal-video.scss"
 
 .HomeExperiences
   max-width: 1200px
@@ -23,28 +24,32 @@
         color: purple
     &-video
       position: relative
-      a:hover img
-        transform: scale(1.05)
-        transition-duration: 0.5s
-      img
-        width: 100%
-        border-radius: 8px
-        box-shadow: 5px 5px 5px #ddd
-      span
-        position: absolute
-        display: flex
-        justify-content: center
-        align-items: center
-        z-index: 1
-        width: 36px
-        height: 36px
-        top: 50%
-        left: 50%
-        transform: translate(-18px, -18px)
-        border-radius: 50%
-        background-color: $color-primary
-        svg
-          color: $color-third
+      button
+        border: none
+        background: transparent
+        cursor: pointer
+        &:hover img
+          transform: scale(1.05)
+          transition-duration: 0.5s
+        img
+          width: 100%
+          border-radius: 8px
+          box-shadow: 5px 5px 5px #ddd
+        span
+          position: absolute
+          display: flex
+          justify-content: center
+          align-items: center
+          z-index: 1
+          width: 36px
+          height: 36px
+          top: 50%
+          left: 50%
+          transform: translate(-18px, -18px)
+          border-radius: 50%
+          background-color: $color-primary
+          svg
+            color: $color-third
     &-content
       position: relative
       margin-top: 20px

@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
+import ModalVideo from 'react-modal-video';
 import './Nosotros.sass';
 
-export const Nosotros = (props) => {
+export const Nosotros = () => {
+  const [show, setShow] = useState(false);
+
   return (
     <Layout
       banner={
@@ -47,12 +50,14 @@ export const Nosotros = (props) => {
               ¡IDEAS QUE <span>MARCAN</span> <br /> LA DIFERENCIA!
             </div>
             <div className="Nosotros-video-player">
-              <a href="?">
+              <button
+                onClick={()=> setShow(true)}
+              >
                 <img src="https://la-leyenda.com/img/demo/internal/nosotros-video.jpg" alt="Motion factory studios" />
                 <span>
                   <FontAwesomeIcon icon={faPlay}/>
                 </span>
-              </a>
+              </button>
             </div>
           </div>
         </section>
@@ -122,6 +127,12 @@ export const Nosotros = (props) => {
           </div>
         </section>
       </div>
+      <ModalVideo channel='youtube'
+        autoplay
+        isOpen={show}
+        videoId="Xv5ljSEA8AM"
+        onClose={()=> setShow(false)}
+      />
     </Layout>
   );
 };

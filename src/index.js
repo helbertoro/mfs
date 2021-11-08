@@ -4,6 +4,7 @@ import App from './routes/App';
 import reportWebVitals from './reportWebVitals';
 import './globals.sass';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

@@ -1,4 +1,5 @@
 @import "../variables.sass"
+@import "/node_modules/react-modal-video/scss/modal-video.scss"
 
 .Nosotros
   h2
@@ -28,27 +29,31 @@
         clear: both
     &-player
       position: relative
-      a:hover img
-        transform: scale(1.05)
-        transition-duration: 0.5s
-      img
-        width: 100%
-      span
-        position: absolute
-        display: flex
-        justify-content: center
-        align-items: center
-        z-index: 1
-        width: 56px
-        height: 56px
-        top: 50%
-        left: 50%
-        transform: translate(-18px, -18px)
-        border-radius: 50%
-        background-color: $color-primary
-        font-size: 1.3rem
-        svg
-          color: $color-third
+      button
+        border: none
+        background: transparent
+        cursor: pointer
+        &:hover img
+          transform: scale(1.05)
+          transition-duration: 0.5s
+        img
+          width: 100%
+        span
+          position: absolute
+          display: flex
+          justify-content: center
+          align-items: center
+          z-index: 1
+          width: 56px
+          height: 56px
+          top: 50%
+          left: 50%
+          transform: translate(-18px, -18px)
+          border-radius: 50%
+          background-color: $color-primary
+          font-size: 1.3rem
+          svg
+            color: $color-third
   &-como
     h2
       display: block
