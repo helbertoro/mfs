@@ -11,6 +11,7 @@ export const Banner = (props) => {
           dangerouslySetInnerHTML={{__html: props.title}}
         />
       </div>
+      <img className="BannerHome-arrow" src="https://la-leyenda.com/img/demo/arrow.png" alt="Flecha scroll down" />
     </div>
   );
 };

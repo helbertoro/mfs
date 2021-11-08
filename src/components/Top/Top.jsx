@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Top.sass';
 
-export const Top = (props) => {
+export const Top = () => {
   return (
     <div className="Top">
       <div className="Top-wrapper">

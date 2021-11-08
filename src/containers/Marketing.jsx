@@ -11,14 +11,14 @@ export const Marketing = (props) => {
       banner={
         <Banner
           color="#FFFFFF"
-          title="Experiencia y profesionalismo <span>a tu alcance</span>"
+          title="!Viralizamos <br /> tu marca a través <span>de redes sociales!</span>"
           image="demo.png"
         />
       }
     >
       <div className="Content Marketing">
         <div className="Content-row">
-          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/marketing-1.jpg" alt="Motion factory studios" />
+          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/marketing-1.png" alt="Motion factory studios" />
           <h1>MARKETING DIGITAL</h1>
           <p>El Marketing Digital se basa en la utilización estratégica de las redes sociales para impulsar la comercialización de un producto o servicio. Sin duda, esta es una alternativa que complementa los resultados alcanzados por medio del marketing convencional garantizando resultados óptimos en la efectividad de las estrategias de comercialización offline, con el propósito de alcanzar nuevos clientes potenciales interesados en la oferta de tu marca.</p>
           <p>Los acelerados cambios en las tendencias de consumo y el auge de las redes sociales han reafirmado la importancia del marketing digital en la expansión comercial de los negocios, convirtiéndose en un aliado invaluable que proporciona resultados confiables en la medición de resultados de las campañas promocionadas y la evaluación del retorno de la inversión publicitaria en medios digitales.</p>

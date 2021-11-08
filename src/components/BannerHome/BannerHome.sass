@@ -1,6 +1,7 @@
 @import '../../variables.sass'
 
 .BannerHome
+  position: relative
   width: 100%
   height: 400px
   padding-bottom: 60px
@@ -8,7 +9,7 @@
   background-repeat: no-repeat
   background-position: center bottom
   &-wrapper
-    width: $container-width
+    max-width: $container-width
     height: 100%
     margin: 0 auto
     display: flex
@@ -32,3 +33,20 @@
       background-color: $color-primary
       &:hover
         background-color: $color-secondary
+  &-arrow
+    position: absolute
+    bottom: 40px
+    left: 50%
+    transform: translateX(-12px)
+    animation: animateArrow 0.7s infinite
+    animation-direction: alternate
+
+@keyframes animateArrow
+  0%
+    bottom: 40px
+  100%
+    bottom: 30px
+
+@media screen and ( max-width: $desktop )
+  .BannerHome
+    padding: 0 10px 60px 10px

@@ -1,6 +1,7 @@
 @import '../../variables.sass'
 
 .Banner
+  position: relative
   display: flex
   align-items: center
   height: 400px
@@ -9,7 +10,7 @@
   background-repeat: no-repeat
   background-position: center bottom
   &-wrapper
-    width: calc(1200px - 7%)
+    width: 1200px
     height: 100%
     margin: 0 auto
     display: flex
@@ -19,17 +20,32 @@
     background-repeat: no-repeat
     background-position: top right
   h3
-    width: 350px
+    width: 540px
     margin: 87px 0 0 0
-    font-family: 'nexaxbold'
+    font-family: 'nexaregular'
+    font-weight: 100
     font-size: 2.5rem
     color: $color-secondary
     span
       display: block
       clear: both
+      font-family: 'nexaxbold'
       color: $color-primary
       text-transform: uppercase
     &.--isWhite
       color: $color-secondary-contrast
       span
         color: $color-secondary-contrast
+  &-arrow
+    position: absolute
+    bottom: 40px
+    left: 50%
+    transform: translateX(-12px)
+    animation: animateArrow 0.7s infinite
+    animation-direction: alternate
+
+@keyframes animateArrow
+  0%
+    bottom: 40px
+  100%
+    bottom: 30px

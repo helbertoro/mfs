@@ -10,14 +10,15 @@ export const Transmision = (props) => {
       banner={
         <Banner
           color="#ffb600"
-          title="Experiencia y profesionalismo <span>a tu alcance</span>"
+          title="Alcanza tu público objetivo por medio de <span>plataformas digitales</span>"
           image="demo.png"
+          isWhite
         />
       }
     >
       <div className="Content Transmision">
         <div className="Content-row">
-          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/transmisiones.png" alt="Motion factory studios" />
+          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/transmisiones.jpg" alt="Motion factory studios" />
           <h1>TRANSMISIONES <br /> DE VIDEO EN VIVO</h1>
           <p>Impulsado por las nuevas tecnologías de la información y el poder de difusión de las redes sociales, las transmisiones de video en vivo combinan la más avanzada tecnología en registro de video con la intención de impulsar los productos y servicios de tu marca entre miles de seguidores interesados en la propuesta de valor de tu negocio. Ofrecemos un trabajo profesional para proyectar desde diferentes ángulos tus eventos, clases, capacitaciones, charlas virtuales o webinar.</p>
           <p>Sabemos que el streaming es hoy en día una potente herramienta para las compañías interesadas en transmitir eventos en vivo, reuniones y clases por internet representando una gran ventaja frente a la competencia y mejorando el reconocimiento de tu marca en el entorno digital.</p>
