@@ -9,10 +9,9 @@ export const Transmision = (props) => {
     <Layout
       banner={
         <Banner
-          color="#ffb600"
+          color="#f8f8f8"
           title="Alcanza tu público objetivo por medio de <span>plataformas digitales</span>"
-          image="demo.png"
-          isWhite
+          image="transmision.jpg"
         />
       }
     >

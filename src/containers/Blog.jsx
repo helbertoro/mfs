@@ -9,7 +9,7 @@ export const Blog = (props) => {
         <Banner
           color="#FFFFFF"
           title="Experiencia y profesionalismo <span>a tu alcance</span>"
-          image="demo.png"
+          image="blog.jpg"
         />
       }
     >

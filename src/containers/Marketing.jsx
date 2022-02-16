@@ -12,7 +12,7 @@ export const Marketing = (props) => {
         <Banner
           color="#FFFFFF"
           title="!Viralizamos <br /> tu marca a través <span>de redes sociales!</span>"
-          image="demo.png"
+          image="marketing.jpg"
         />
       }
     >

@@ -12,7 +12,7 @@ export const Eventos = (props) => {
         <Banner
           color="#FFFFFF"
           title="¡Ofrecemos <br/> experiencias únicas <span>para eventos inolvidables!</span>"
-          image="demo.png"
+          image="eventos.jpg"
         />
       }
     >

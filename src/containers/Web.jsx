@@ -12,7 +12,7 @@ export const Web = (props) => {
         <Banner
           color="#FFFFFF"
           title="Mejora el impacto <br/> de tu empresa <span>en internet</span>"
-          image="demo.png"
+          image="web.jpg"
         />
       }
     >

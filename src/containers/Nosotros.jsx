@@ -15,13 +15,13 @@ export const Nosotros = () => {
         <Banner
           color="#FFFFFF"
           title="Somos un equipo de profesionales <span>100% comprometidos con tu marca</span>"
-          image="demo.png"
+          image="nosotros.jpg"
         />
       }
     >
       <div className="Nosotros Content">
         <section className="Content-row --align-text">
-          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/internal/home-1.png" alt="Motion factory studios" />
+          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/internal/home-1.jpg" alt="Motion factory studios" />
           <h2>QUIENES SOMOS</h2>
           <p>Somos Motion Factory Studios, una agencia publicitaria especializada en el desarrollo de soluciones estratégicas para impulsar el crecimiento de las marcas que han confiado en nosotros.</p>
           <p>Ofrecemos un completo portafolio de servicios con enfoque 360° en producción de video, fotografía, animación 2D y 3D, audio, diseño gráfico, creación de páginas web, marketing digital, transmisiones de video en vivo y lanzamientos virtuales, todo con el respaldo de un completo equipo de profesionales comprometidos con la realización de un plan de trabajo integrado, donde nuestras áreas se alinean en respuesta a las necesidades de cada cliente.</p>
@@ -39,7 +39,7 @@ export const Nosotros = () => {
           </div>
         </section>
         <section className="Content-row --align-text">
-          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/internal/home-3.png" alt="Motion factory studios" />
+          <img className="Content-img-right" src="https://la-leyenda.com/img/demo/internal/home-3.jpg" alt="Motion factory studios" />
           <h2>NUESTRO PUNTO DIFERENCIAL</h2>
           <p>Nos diferencia la pasión por los detalles y la implementación de una metodología de trabajo 360o donde cada una de las áreas de trabajo participa de manera conjunta en la resolución de las necesidades de nuestros clientes. Disponemos de infraestructura propia, tecnología avanzada en registro de video y fotografía, un completo equipo de más de 30 profesionales de extensa trayectoria y una planeación estricta de las actividades a desarrollar garantizando el cumplimiento de cada proyecto.</p>
           <p>Innovación, calidad y profesionalismo son los valores que nos caracterizan, brindando en todo momento un acompañamiento cercano y personalizado a nuestros clientes que se ve reflejado en la entrega de un resultado satisfactorio sin sobrepasar los límites de tiempo y costos previstos en la planeación estratégica de cada proyecto. Es momento de impulsar el reconocimiento de tu marca en manos de un equipo profesional comprometido con las necesidades de tu negocio.</p>

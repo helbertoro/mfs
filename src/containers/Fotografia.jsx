@@ -10,9 +10,9 @@ export const Fotografia = (props) => {
     <Layout
       banner={
         <Banner
-          color="#00aadc"
+          color="#c6a151"
           title="Fotografía <br/> de alto impacto <span>para tu marca</span>"
-          image="demo.png"
+          image="fotografia.jpg"
           isWhite
         />
       }

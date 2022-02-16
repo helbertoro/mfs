@@ -47,6 +47,7 @@
           position: absolute
           width: 80%
           padding: 10px
+          box-sizing: border-box
           bottom: -15px
           left: 10%
           background-color: $color-secondary-contrast
@@ -54,3 +55,14 @@
           border-radius: 8px
           color: $color-secondary
           font-size: 1.2rem
+
+@media screen and ( max-width: $tablet )
+  .HomePortafolio
+    &-content-item
+      width: 45%
+
+@media screen and ( max-width: $phone )
+  .HomePortafolio
+    padding: 1rem
+    &-content-item
+      width: 100%

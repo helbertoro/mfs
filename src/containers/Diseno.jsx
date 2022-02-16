@@ -12,7 +12,7 @@ export const Diseno = (props) => {
         <Banner
           color="#FFFFFF"
           title="Proyecta profesionalmente la identidad de <span>tu marca</span>"
-          image="demo.png"
+          image="diseno-grafico.jpg"
         />
       }
     >

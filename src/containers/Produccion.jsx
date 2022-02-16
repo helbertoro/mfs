@@ -10,9 +10,9 @@ export const Produccion = (props) => {
     <Layout
       banner={
         <Banner
-          color="#00c4ce"
+          color="#ffdd62"
           title="Realizamos <br /> tus proyectos <span>AUDIOVISUALES</span>"
-          image="demo.png"
+          image="video.jpg"
           isWhite
         />
       }

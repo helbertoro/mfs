@@ -17,7 +17,7 @@ export const Contacto = (props) => {
         <Banner
           color="#FFFFFF"
           title="Experiencia y profesionalismo <span>a tu alcance</span>"
-          image="demo.png"
+          image="contacto.jpg"
         />
       }
     >

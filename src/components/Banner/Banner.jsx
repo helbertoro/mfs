@@ -5,7 +5,7 @@ import './Banner.sass';
 export const Banner = (props) => {
   return (
     <div className="Banner" style={{backgroundColor: props.color}}>
-      <div className="Banner-wrapper" style={{backgroundImage: `url(https://la-leyenda.com/img/demo/${props.image})`}}>
+      <div className="Banner-wrapper" style={{backgroundImage: `url(https://la-leyenda.com/img/demo/banner/${props.image})`}}>
         <h3
           className={props.isWhite ? '--isWhite' : ''}
           dangerouslySetInnerHTML={{__html: props.title}}

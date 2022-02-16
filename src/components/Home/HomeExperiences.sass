@@ -62,3 +62,13 @@
     position: absolute
     bottom: 10px
     right: 30px
+
+@media screen and ( max-width: $desktop )
+  .HomeExperiences
+    &-testimonials
+      grid-template-columns: repeat(2, 1fr)
+
+@media screen and ( max-width: $phone )
+  .HomeExperiences
+    &-testimonials
+      grid-template-columns: 1fr

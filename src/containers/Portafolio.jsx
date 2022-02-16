@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Layout } from '../components/Layout.jsx';
 import { Banner } from '../components/Banner/Banner.jsx';
@@ -10,7 +11,7 @@ export const Portafolio = (props) => {
         <Banner
           color="#FFFFFF"
           title="¡Ideas innovadoras para <span>grandes proyectos!</span>"
-          image="demo.png"
+          image="portafolio.jpg"
         />
       }
     >
