@@ -51,3 +51,20 @@
   .BannerHome
     padding: 0 10px 60px 10px
     box-sizing: border-box
+
+@media screen and ( max-width: $tablet )
+  .BannerHome
+    &-content
+      h3
+        font-size: 1.7rem
+        margin-top: 10px
+      p
+        font-size: 1.2rem
+        padding-bottom: 10px
+      a
+        font-size: 1.2rem
+
+@media screen and ( max-width: $phone )
+  .BannerHome
+    height: auto
+    padding: 0 10px 90px 10px

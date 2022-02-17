@@ -92,3 +92,26 @@
         grid-column: 2 / 4 span
   .--align-text
     text-align: justify
+
+@media screen and ( max-width: $desktop )
+  .Nosotros
+    &-grid
+      display: flex
+      flex-direction: column
+      background: none
+
+@media screen and ( max-width: $tablet )
+  .Nosotros
+    padding: 1rem
+    &-equipo
+      flex-direction: column
+      &-title
+        margin-right: 0
+    h2
+      text-align: center
+    &-como
+      padding: 1rem
+    &-video
+      flex-direction: column
+      &-player
+        margin-top: 20px

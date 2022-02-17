@@ -3,13 +3,13 @@
 .HomeTop
   display: flex
   justify-content: space-between
-  flex-wrap: wrap
+  flex-wrap: nowrap
   max-width: 1200px
   margin: 70px auto
   &-card
     position: relative
-    width: 100%
-    margin-bottom: 50px
+    width: 30%
+    margin-bottom: 0
     padding: 30px
     box-sizing: border-box
     border-radius: 12px
@@ -25,9 +25,11 @@
     p
       margin: 0
 
-@media (min-width: 767px)
+@media screen and ( max-width: $tablet )
   .HomeTop
-    flex-wrap: nowrap
+    flex-wrap: wrap
+    padding: 1rem
+    margin: 50px auto 0px auto
     &-card
-      width: 30%
-      margin-bottom: 0
+      width: 100%
+      margin-bottom: 50px

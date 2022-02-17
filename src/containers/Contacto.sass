@@ -43,3 +43,16 @@
     .Social ul li a
       background-color: $color-primary
       color: $color-secondary-contrast
+
+@media screen and ( max-width: $tablet )
+  .Contacto
+    &-content
+      flex-direction: column
+    &-form, &-redes
+      width: 80%
+
+@media screen and ( max-width: $phone )
+  .Contacto
+    padding: 1rem
+    &-form, &-redes
+      width: 100%

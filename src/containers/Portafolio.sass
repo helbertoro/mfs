@@ -45,3 +45,19 @@
           border-radius: 8px
           color: $color-secondary
           font-size: 1.2rem
+
+@media screen and ( max-width: $tablet )
+  .Portafolio
+    &-title
+      h4
+        font-size: 2rem
+      p
+        font-size: 1.1rem
+    &-content-item
+      width: 45%
+
+@media screen and ( max-width: $phone )
+  .Portafolio
+    padding: 1rem
+    &-content-item
+      width: 100%

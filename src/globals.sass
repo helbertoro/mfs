@@ -53,3 +53,21 @@ b
     float: left
     margin-right: 4%
     margin-bottom: 10px
+
+@media screen and ( max-width: $desktop )
+  .Content
+    padding: 1rem
+@media screen and ( max-width: $tablet )
+  .Content
+    &-img-right
+      display: block
+      width: auto
+      max-width: 100%
+      float: none
+      margin: 0 auto
+    &-img-left
+      display: block
+      width: auto
+      max-width: 100%
+      float: none
+      margin: 0 auto

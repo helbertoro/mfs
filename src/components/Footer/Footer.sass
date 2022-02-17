@@ -38,7 +38,12 @@
 
 @media screen and ( max-width: $tablet )
   .Footer
-    &-content, &-form
+    &-content
+      width: 100%
+      padding-right: 0
+      h5
+        font-size: 1.8rem
+    &-form
       width: 100%
     &-wrapper
       flex-direction: column
