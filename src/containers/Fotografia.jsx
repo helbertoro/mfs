@@ -11,7 +11,7 @@ export const Fotografia = (props) => {
       banner={
         <Banner
           color="#c6a151"
-          title="Fotografía <br/> de alto impacto <span>para tu marca</span>"
+          title="Fotografía de alto impacto <span>para tu marca</span>"
           image="fotografia.jpg"
           isWhite
         />
@@ -31,7 +31,7 @@ export const Fotografia = (props) => {
           <Phrases page="fotografia"/>
         </div>
         <div className="content-row">
-          <BtnPortafolio url="/portafolio"/>
+          <BtnPortafolio url="https://www.flickr.com/photos/195072671@N07/albums/72177720296913688"/>
         </div>
       </div>
     </Layout>

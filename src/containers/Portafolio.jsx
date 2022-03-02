@@ -25,43 +25,43 @@ export const Portafolio = (props) => {
         <div className="Content-row">
           <div className="Portafolio-content">
             <div className="Portafolio-content-item">
-              <a href="/servicios/produccion-de-video">
+              <a href="https://www.flickr.com/photos/195072671@N07/albums/72177720296912716" target="_blank" rel="noreferrer">
                 <img src="https://la-leyenda.com/img/demo/portafolio/video.jpg" alt="Producción de video" />
                 <span>Producción de video</span>
               </a>
             </div>
             <div className="Portafolio-content-item">
-              <a href="/servicios/transmisiones-de-video-en-vivo">
+              <a href="https://www.flickr.com/photos/195072671@N07/albums/72177720296909125" target="_blank" rel="noreferrer">
                 <img src="https://la-leyenda.com/img/demo/portafolio/transmision.jpg" alt="" />
                 <span>Transmisiones en vivo</span>
               </a>
             </div>
             <div className="Portafolio-content-item">
-              <a href="/servicios/marketing-digital">
+              <a href="https://www.flickr.com/photos/195072671@N07/albums/72177720296911137" target="_blank" rel="noreferrer">
                 <img src="https://la-leyenda.com/img/demo/portafolio/marketing.jpg" alt="" />
                 <span>Marketing digital</span>
               </a>
             </div>
             <div className="Portafolio-content-item">
-              <a href="/servicios/sitios-web">
+              <a href="https://www.flickr.com/photos/195072671@N07/albums/72177720296911132" target="_blank" rel="noreferrer">
                 <img src="https://la-leyenda.com/img/demo/portafolio/web.jpg" alt="" />
                 <span>Diseño web</span>
               </a>
             </div>
             <div className="Portafolio-content-item">
-              <a href="/servicios/diseño-grafico">
+              <a href="https://www.flickr.com/photos/195072671@N07/albums/72177720296911122" target="_blank" rel="noreferrer">
                 <img src="https://la-leyenda.com/img/demo/portafolio/diseno.jpg" alt="" />
                 <span>Diseño gráfico</span>
               </a>
             </div>
             <div className="Portafolio-content-item">
-              <a href="/servicios/fotografia-profesional">
+              <a href="https://www.flickr.com/photos/195072671@N07/albums/72177720296913688" target="_blank" rel="noreferrer">
                 <img src="https://la-leyenda.com/img/demo/portafolio/foto.jpg" alt="" />
                 <span>Fotografía profesional</span>
               </a>
             </div>
             <div className="Portafolio-content-item">
-              <a href="/servicios/eventos-corporativos">
+              <a href="https://www.flickr.com/photos/195072671@N07/albums/72177720296912666" target="_blank" rel="noreferrer">
                 <img src="https://la-leyenda.com/img/demo/portafolio/eventos.jpg" alt="" />
                 <span>Eventos corporativos</span>
               </a>

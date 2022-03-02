@@ -32,7 +32,7 @@ export const Transmision = (props) => {
           e impactar en tus audiencias digitales
         </div>
         <div className="content-row">
-          <BtnPortafolio url="/portafolio"/>
+          <BtnPortafolio url="https://www.flickr.com/photos/195072671@N07/albums/72177720296909125"/>
         </div>
       </div>
     </Layout>

@@ -11,7 +11,7 @@ export const Web = (props) => {
       banner={
         <Banner
           color="#FFFFFF"
-          title="Mejora el impacto <br/> de tu empresa <span>en internet</span>"
+          title="Mejora el impacto de tu empresa <span>en internet</span>"
           image="web.jpg"
         />
       }
@@ -26,7 +26,7 @@ export const Web = (props) => {
           <Phrases page="web"/>
         </div>
         <div className="content-row">
-          <BtnPortafolio url="/portafolio"/>
+          <BtnPortafolio url="https://www.flickr.com/photos/195072671@N07/albums/72177720296911132"/>
         </div>
       </div>
     </Layout>

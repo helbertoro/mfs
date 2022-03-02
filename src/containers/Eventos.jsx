@@ -11,7 +11,7 @@ export const Eventos = (props) => {
       banner={
         <Banner
           color="#FFFFFF"
-          title="¡Ofrecemos <br/> experiencias únicas <span>para eventos inolvidables!</span>"
+          title="¡Ofrecemos experiencias únicas <span>para eventos inolvidables!</span>"
           image="eventos.jpg"
         />
       }
@@ -34,7 +34,7 @@ export const Eventos = (props) => {
           <Phrases page="eventos"/>
         </div>
         <div className="content-row">
-          <BtnPortafolio url="/portafolio"/>
+          <BtnPortafolio url="https://www.flickr.com/photos/195072671@N07/albums/72177720296912666"/>
         </div>
       </div>
     </Layout>

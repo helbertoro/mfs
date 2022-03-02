@@ -33,7 +33,7 @@ export const Diseno = (props) => {
           <Phrases page="diseno"/>
         </div>
         <div className="content-row">
-          <BtnPortafolio url="/portafolio"/>
+          <BtnPortafolio url="https://www.flickr.com/photos/195072671@N07/albums/72177720296911132"/>
         </div>
       </div>
     </Layout>

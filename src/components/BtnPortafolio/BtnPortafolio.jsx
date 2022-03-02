@@ -8,8 +8,9 @@ export const BtnPortafolio = (props) => {
   return (
     <a
       className="BtnPortafolio"
-      href="?"
+      href={props.url}
       target="_blank"
+      rel="noreferrer"
     >
       PORTAFOLIO
       <div className="BtnPortafolio-icon">

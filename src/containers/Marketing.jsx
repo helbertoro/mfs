@@ -35,7 +35,7 @@ export const Marketing = (props) => {
           <Phrases page="marketing"/>
         </div>
         <div className="content-row">
-          <BtnPortafolio url="/portafolio"/>
+          <BtnPortafolio url="https://www.flickr.com/photos/195072671@N07/albums/72177720296911137"/>
         </div>
       </div>
     </Layout>
