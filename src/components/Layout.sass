@@ -1,3 +1,59 @@
+@import '../variables.sass'
+
 .Layout
   &-top
     position: relative
+
+.bm-burger-button
+  display: none
+  position: fixed
+  width: 36px
+  height: 30px
+  right: 36px
+  top: 36px
+
+.bm-burger-bars
+  background: $color-secondary
+
+.bm-burger-bars-hover
+  background: $color-primary
+
+.bm-cross-button
+  height: 24px
+  width: 24px
+
+.bm-cross
+  background: #bdc3c7
+
+.bm-menu-wrap
+  position: fixed
+  height: 100%
+
+.bm-menu
+  background: #373a47
+  padding: 2.5em 1.5em 0
+  font-size: 1.15em
+
+.bm-morph-shape
+  fill: #373a47
+
+.bm-item-list
+  color: #b8b7ad
+  padding: 0.8em
+
+.bm-item
+  display: inline-block
+  padding: 9px 0
+  text-decoration: none
+  color: $color-third
+  &:hover
+    color: $color-primary
+  &:focus
+    outline: none
+
+.bm-overlay
+  background: rgba(0, 0, 0, 0.3)
+
+@media screen and ( max-width: $tablet )
+  .bm-burger-button
+    display: inline-block

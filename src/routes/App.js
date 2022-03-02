@@ -13,6 +13,7 @@ import { Eventos } from '../containers/Eventos';
 import { Portafolio } from '../containers/Portafolio';
 import { Blog } from '../containers/Blog';
 import { Contacto } from '../containers/Contacto';
+import { Servicios } from '../containers/Servicios';
 import { NotFound } from '../containers/NotFound';
 
 const App = () => (
@@ -20,6 +21,7 @@ const App = () => (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/nosotros" component={Nosotros} />
+      <Route exact path="/servicios" component={Servicios} />
       <Route exact path="/servicios/produccion-de-video" component={Produccion} />
       <Route exact path="/servicios/transmisiones-de-video-en-vivo" component={Transmision} />
       <Route exact path="/servicios/marketing-digital" component={Marketing} />
